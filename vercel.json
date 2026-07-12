@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/apply", "destination": "/pricing.html", "permanent": false },
+    { "source": "/apply/(.*)", "destination": "/pricing.html", "permanent": false }
+  ]
+}
