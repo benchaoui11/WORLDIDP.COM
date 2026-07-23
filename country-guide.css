@@ -2,11 +2,43 @@
    Layered on top of styles.css + what-is-idp.css. Layout only; no design tokens
    are redefined so the page stays consistent with the rest of the site. */
 
+/* ---------------------------------------------------------------------------
+   FIXED-HEADER CLEARANCE
+
+   .site-header is position:fixed at top:18px (10px once scrolled) and is about
+   68px tall, so roughly 86px of the viewport is covered before any content
+   starts. Pages built on this template need to reserve that space themselves —
+   a fixed header is out of flow and reserves nothing.
+
+   The value lives in a custom property so there is one number to change if the
+   header height ever moves, and so scroll-margin-top can reuse it: without that,
+   clicking an in-page anchor scrolls the target underneath the header instead
+   of below it.
+
+   It deliberately matches the existing site convention. .wi-hero in
+   what-is-idp.css already reserves clamp(118px, 13vw, 168px), which is how the
+   guides, comparison and convention pages clear the same header. Using the same
+   clamp here keeps every template visually aligned instead of introducing a
+   second, competing offset.
+   --------------------------------------------------------------------------- */
+:root {
+  --wi-header-clearance: clamp(118px, 13vw, 168px);
+}
+
 .cg {
   max-width: 76ch;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  /* top padding clears the fixed header; the rest is normal page rhythm */
+  padding: var(--wi-header-clearance) 1.25rem 4rem;
 }
+
+/* Anchor targets must land below the header, not behind it. */
+.cg [id],
+.cg-section[id],
+.cg-term[id] {
+  scroll-margin-top: calc(var(--wi-header-clearance) - 24px);
+}
+
 
 .cg-crumbs {
   font-size: .8125rem;
@@ -139,7 +171,9 @@
 }
 
 @media (max-width: 640px) {
-  .cg { padding: 1.35rem 1rem 3rem; }
+  /* The header stays roughly the same height on narrow viewports, so the
+     clearance is unchanged — only horizontal padding and type scale move. */
+  .cg { padding: var(--wi-header-clearance) 1rem 3rem; }
   .cg-facts { font-size: .875rem; }
   .cg-facts th { width: 52%; }
   .cg-facts th, .cg-facts td { padding: .55rem .5rem; }
