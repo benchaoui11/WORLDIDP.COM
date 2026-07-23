@@ -1,0 +1,4788 @@
+{
+  "version": "2026-07-23",
+  "lastUpdated": "2026-07-23",
+  "licence": null,
+  "limitations": "Unsupported fields are null or DATA REQUIRED. Country rules can change and should be confirmed with official authorities.",
+  "countries": [
+    {
+      "slug": "albania",
+      "name": "Albania",
+      "iso2": "AL",
+      "flag": "🇦🇱",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "algeria",
+      "name": "Algeria",
+      "iso2": "DZ",
+      "flag": "🇩🇿",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "iso2": "AR",
+      "flag": "🇦🇷",
+      "region": "Americas",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "iso2": "AU",
+      "flag": "🇦🇺",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": "translation-or-state-dependent",
+      "idpStatusApplies": "Visitors with non-English licences should carry an English translation or IDP, and state time limits vary.",
+      "idpStatusExempt": "Visitors with a current English-language overseas licence may be able to drive temporarily, depending on state or territory rules.",
+      "drivingSide": "left",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Austroads - Overseas drivers",
+          "url": "https://austroads.gov.au/drivers-and-vehicles/overseas-drivers",
+          "publisherType": "official-road-authority",
+          "supports": [
+            "visitor-driving",
+            "state-variation"
+          ]
+        },
+        {
+          "name": "NSW Government - driving with an overseas licence",
+          "url": "https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-or-moving-to-nsw/visiting-from-overseas-or-interstate",
+          "publisherType": "government",
+          "supports": [
+            "documents-to-carry",
+            "translation-idp"
+          ]
+        },
+        {
+          "name": "Service NSW - International Driving Permit",
+          "url": "https://www.service.nsw.gov.au/transaction/apply-for-an-international-driving-permit-idp",
+          "publisherType": "government",
+          "supports": [
+            "australian-idp",
+            "documents"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "japan",
+        "thailand",
+        "united-states"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Australian visitor-driving rules are state and territory based. NSW and Victoria apply time limits that differ from some other states."
+    },
+    {
+      "slug": "austria",
+      "name": "Austria",
+      "iso2": "AT",
+      "flag": "🇦🇹",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bahamas",
+      "name": "Bahamas",
+      "iso2": "BS",
+      "flag": "🇧🇸",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bahrain",
+      "name": "Bahrain",
+      "iso2": "BH",
+      "flag": "🇧🇭",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bangladesh",
+      "name": "Bangladesh",
+      "iso2": "BD",
+      "flag": "🇧🇩",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "barbados",
+      "name": "Barbados",
+      "iso2": "BB",
+      "flag": "🇧🇧",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "belarus",
+      "name": "Belarus",
+      "iso2": "BY",
+      "flag": "🇧🇾",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "belgium",
+      "name": "Belgium",
+      "iso2": "BE",
+      "flag": "🇧🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bolivia",
+      "name": "Bolivia",
+      "iso2": "BO",
+      "flag": "🇧🇴",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bosnia-and-herzegovina",
+      "name": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "flag": "🇧🇦",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "botswana",
+      "name": "Botswana",
+      "iso2": "BW",
+      "flag": "🇧🇼",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "brazil",
+      "name": "Brazil",
+      "iso2": "BR",
+      "flag": "🇧🇷",
+      "region": "Americas",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "brunei",
+      "name": "Brunei",
+      "iso2": "BN",
+      "flag": "🇧🇳",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "bulgaria",
+      "name": "Bulgaria",
+      "iso2": "BG",
+      "flag": "🇧🇬",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "cambodia",
+      "name": "Cambodia",
+      "iso2": "KH",
+      "flag": "🇰🇭",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "iso2": "CA",
+      "flag": "🇨🇦",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "chile",
+      "name": "Chile",
+      "iso2": "CL",
+      "flag": "🇨🇱",
+      "region": "Americas",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "china",
+      "name": "China",
+      "iso2": "CN",
+      "flag": "🇨🇳",
+      "region": "Asia",
+      "legacyStatus": "limited",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "colombia",
+      "name": "Colombia",
+      "iso2": "CO",
+      "flag": "🇨🇴",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "costa-rica",
+      "name": "Costa Rica",
+      "iso2": "CR",
+      "flag": "🇨🇷",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "croatia",
+      "name": "Croatia",
+      "iso2": "HR",
+      "flag": "🇭🇷",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "cuba",
+      "name": "Cuba",
+      "iso2": "CU",
+      "flag": "🇨🇺",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "cyprus",
+      "name": "Cyprus",
+      "iso2": "CY",
+      "flag": "🇨🇾",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "czech-republic",
+      "name": "Czech Republic",
+      "iso2": "CZ",
+      "flag": "🇨🇿",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "denmark",
+      "name": "Denmark",
+      "iso2": "DK",
+      "flag": "🇩🇰",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "dominican-republic",
+      "name": "Dominican Republic",
+      "iso2": "DO",
+      "flag": "🇩🇴",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "ecuador",
+      "name": "Ecuador",
+      "iso2": "EC",
+      "flag": "🇪🇨",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "egypt",
+      "name": "Egypt",
+      "iso2": "EG",
+      "flag": "🇪🇬",
+      "region": "Africa",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "estonia",
+      "name": "Estonia",
+      "iso2": "EE",
+      "flag": "🇪🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "eswatini",
+      "name": "Eswatini",
+      "iso2": "SZ",
+      "flag": "🇸🇿",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "ethiopia",
+      "name": "Ethiopia",
+      "iso2": "ET",
+      "flag": "🇪🇹",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "fiji",
+      "name": "Fiji",
+      "iso2": "FJ",
+      "flag": "🇫🇯",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "finland",
+      "name": "Finland",
+      "iso2": "FI",
+      "flag": "🇫🇮",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "iso2": "FR",
+      "flag": "🇫🇷",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": "recommended-for-non-french-or-non-eu-licences",
+      "idpStatusApplies": "Drivers with licences that are not in French or are not covered by recognition arrangements should carry a translation or IDP.",
+      "idpStatusExempt": "EU/EEA licence holders are generally treated separately from other visitors.",
+      "drivingSide": "right",
+      "speedUrbanKmh": 50,
+      "speedRuralKmh": 80,
+      "speedMotorwayKmh": 130,
+      "conventions": [
+        "1949-geneva",
+        "1968-vienna"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Service-Public.fr - Vitesse au volant",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19460",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits"
+          ]
+        },
+        {
+          "name": "Legifrance - Code de la route, vitesse",
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006159600/",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits",
+            "penalties"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention",
+            "rental-considerations"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "spain",
+        "italy",
+        "germany"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "France lowers many limits in rain or poor visibility. Carry the original licence and confirm rental-provider document requirements before pickup."
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "iso2": "DE",
+      "flag": "🇩🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": "recommended-for-non-eu-or-non-german-licences",
+      "idpStatusApplies": "Visitors whose licence is outside the EU/EEA recognition framework or not written in a readable format should check German translation or IDP requirements.",
+      "idpStatusExempt": "EU/EEA licence holders are generally recognised under EU rules.",
+      "drivingSide": "right",
+      "speedUrbanKmh": 50,
+      "speedRuralKmh": 100,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva",
+        "1968-vienna"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Germany StVO section 3 - Speed",
+          "url": "https://www.gesetze-im-internet.de/stvo_2013/__3.html",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits"
+          ]
+        },
+        {
+          "name": "Germany BKatV speed penalty schedule",
+          "url": "https://www.gesetze-im-internet.de/bkatv_2013/anhang.html",
+          "publisherType": "government",
+          "supports": [
+            "penalties"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention",
+            "rental-considerations"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "france",
+        "italy",
+        "spain"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Germany has a 130 km/h advisory speed on motorways rather than one universal motorway limit. Posted limits and weather conditions still control."
+    },
+    {
+      "slug": "ghana",
+      "name": "Ghana",
+      "iso2": "GH",
+      "flag": "🇬🇭",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "greece",
+      "name": "Greece",
+      "iso2": "GR",
+      "flag": "🇬🇷",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "guyana",
+      "name": "Guyana",
+      "iso2": "GY",
+      "flag": "🇬🇾",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "hungary",
+      "name": "Hungary",
+      "iso2": "HU",
+      "flag": "🇭🇺",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "iceland",
+      "name": "Iceland",
+      "iso2": "IS",
+      "flag": "🇮🇸",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "india",
+      "name": "India",
+      "iso2": "IN",
+      "flag": "🇮🇳",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "indonesia",
+      "name": "Indonesia",
+      "iso2": "ID",
+      "flag": "🇮🇩",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "iran",
+      "name": "Iran",
+      "iso2": "IR",
+      "flag": "🇮🇷",
+      "region": "Middle East",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "iraq",
+      "name": "Iraq",
+      "iso2": "IQ",
+      "flag": "🇮🇶",
+      "region": "Middle East",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "iso2": "IE",
+      "flag": "🇮🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "israel",
+      "name": "Israel",
+      "iso2": "IL",
+      "flag": "🇮🇱",
+      "region": "Middle East",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "iso2": "IT",
+      "flag": "🇮🇹",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": "required-or-official-translation",
+      "idpStatusApplies": "Drivers whose licence is not issued in the EU/EEA or not accompanied by a suitable official translation should check Italian requirements before driving.",
+      "idpStatusExempt": "EU/EEA licence holders are generally treated differently from non-EU/EEA visitors.",
+      "drivingSide": "right",
+      "speedUrbanKmh": 50,
+      "speedRuralKmh": 90,
+      "speedMotorwayKmh": 130,
+      "conventions": [
+        "1949-geneva",
+        "1968-vienna"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "ACI - Codice della Strada, Art. 142",
+          "url": "https://www.aci.it/fileadmin/cds/art-142.php",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits"
+          ]
+        },
+        {
+          "name": "Italian Ministry of Infrastructure and Transport",
+          "url": "https://www.mit.gov.it/",
+          "publisherType": "government",
+          "supports": [
+            "conventions"
+          ]
+        },
+        {
+          "name": "Italy official tourism road guidance",
+          "url": "https://www.italia.it/en/italy/things-to-do/driving-in-italy",
+          "publisherType": "official-tourism",
+          "supports": [
+            "driving-side",
+            "documents-to-carry"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "spain",
+        "france",
+        "germany"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Italy has city traffic-restriction zones and destination-specific rental requirements. Confirm local city and provider rules before driving."
+    },
+    {
+      "slug": "jamaica",
+      "name": "Jamaica",
+      "iso2": "JM",
+      "flag": "🇯🇲",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "japan",
+      "name": "Japan",
+      "iso2": "JP",
+      "flag": "🇯🇵",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": "required-1949-geneva-only",
+      "idpStatusApplies": "Japan recognises only IDPs issued under the 1949 Geneva Convention, with separate translation rules for a limited set of foreign licences.",
+      "idpStatusExempt": "Some licence holders from designated jurisdictions may drive with an authorised Japanese translation instead of an IDP.",
+      "drivingSide": "left",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Tokyo Metropolitan Police - International Driving Permit in Japan",
+          "url": "https://www.keishicho.metro.tokyo.lg.jp/multilingual/english/finding_services/faq/drivers_license/drivers_license01.html",
+          "publisherType": "government",
+          "supports": [
+            "idp-requirement",
+            "convention"
+          ]
+        },
+        {
+          "name": "Japan National Police Agency - foreign driver's licence holders",
+          "url": "https://www.npa.go.jp/policies/application/license_renewal/have_DL_issed_another_country.html/the_road_traffic_law.html",
+          "publisherType": "government",
+          "supports": [
+            "documents-to-carry",
+            "translation-exceptions"
+          ]
+        },
+        {
+          "name": "Japan National Police Agency Traffic Bureau",
+          "url": "https://www.npa.go.jp/english/bureau/traffic/index.html",
+          "publisherType": "government",
+          "supports": [
+            "foreign-driver-guidance"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "thailand",
+        "australia",
+        "united-states"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Do not rely on a 1968 Vienna Convention IDP for Japan. Police guidance says those permits are invalid for driving in Japan."
+    },
+    {
+      "slug": "jordan",
+      "name": "Jordan",
+      "iso2": "JO",
+      "flag": "🇯🇴",
+      "region": "Middle East",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "kazakhstan",
+      "name": "Kazakhstan",
+      "iso2": "KZ",
+      "flag": "🇰🇿",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "kenya",
+      "name": "Kenya",
+      "iso2": "KE",
+      "flag": "🇰🇪",
+      "region": "Africa",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "kuwait",
+      "name": "Kuwait",
+      "iso2": "KW",
+      "flag": "🇰🇼",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "laos",
+      "name": "Laos",
+      "iso2": "LA",
+      "flag": "🇱🇦",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "latvia",
+      "name": "Latvia",
+      "iso2": "LV",
+      "flag": "🇱🇻",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "lebanon",
+      "name": "Lebanon",
+      "iso2": "LB",
+      "flag": "🇱🇧",
+      "region": "Middle East",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "lithuania",
+      "name": "Lithuania",
+      "iso2": "LT",
+      "flag": "🇱🇹",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "luxembourg",
+      "name": "Luxembourg",
+      "iso2": "LU",
+      "flag": "🇱🇺",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "malaysia",
+      "name": "Malaysia",
+      "iso2": "MY",
+      "flag": "🇲🇾",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "maldives",
+      "name": "Maldives",
+      "iso2": "MV",
+      "flag": "🇲🇻",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "malta",
+      "name": "Malta",
+      "iso2": "MT",
+      "flag": "🇲🇹",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "mauritius",
+      "name": "Mauritius",
+      "iso2": "MU",
+      "flag": "🇲🇺",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "mexico",
+      "name": "Mexico",
+      "iso2": "MX",
+      "flag": "🇲🇽",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": "licence-and-origin-dependent",
+      "idpStatusApplies": "Visitors should confirm requirements with the destination authority, embassy, consulate, and rental provider before driving.",
+      "idpStatusExempt": "Some visitor licences, such as UK photocard licences under UK guidance, may be usable without an IDP.",
+      "drivingSide": "right",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": 110,
+      "conventions": [
+        "1926-paris"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Mexico SRE - Conducir en el extranjero",
+          "url": "https://www.gob.mx/sre/documentos/conducir-en-el-extranjero",
+          "publisherType": "government",
+          "supports": [
+            "idp-methodology",
+            "official-check-warning"
+          ]
+        },
+        {
+          "name": "Mexico SICT - federal-road speed guidance",
+          "url": "https://www.gob.mx/sict/prensa/sict-recomienda-respetar-los-limites-de-velocidad-al-manejar-por-carretera-durante-vacaciones",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits",
+            "road-safety"
+          ]
+        },
+        {
+          "name": "UK Government Mexico travel advice - road travel",
+          "url": "https://www.gov.uk/foreign-travel-advice/mexico/safety-and-security",
+          "publisherType": "government",
+          "supports": [
+            "foreign-licence",
+            "driving-restrictions"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "united-states",
+        "australia",
+        "spain"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Mexico has local driving restrictions in some cities and separate insurance considerations. Confirm provider and jurisdiction rules before driving."
+    },
+    {
+      "slug": "moldova",
+      "name": "Moldova",
+      "iso2": "MD",
+      "flag": "🇲🇩",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "mongolia",
+      "name": "Mongolia",
+      "iso2": "MN",
+      "flag": "🇲🇳",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "montenegro",
+      "name": "Montenegro",
+      "iso2": "ME",
+      "flag": "🇲🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "morocco",
+      "name": "Morocco",
+      "iso2": "MA",
+      "flag": "🇲🇦",
+      "region": "Africa",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "mozambique",
+      "name": "Mozambique",
+      "iso2": "MZ",
+      "flag": "🇲🇿",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "namibia",
+      "name": "Namibia",
+      "iso2": "NA",
+      "flag": "🇳🇦",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "iso2": "NP",
+      "flag": "🇳🇵",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "netherlands",
+      "name": "Netherlands",
+      "iso2": "NL",
+      "flag": "🇳🇱",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "iso2": "NZ",
+      "flag": "🇳🇿",
+      "region": "Oceania",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "nigeria",
+      "name": "Nigeria",
+      "iso2": "NG",
+      "flag": "🇳🇬",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "north-macedonia",
+      "name": "North Macedonia",
+      "iso2": "MK",
+      "flag": "🇲🇰",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "norway",
+      "name": "Norway",
+      "iso2": "NO",
+      "flag": "🇳🇴",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "oman",
+      "name": "Oman",
+      "iso2": "OM",
+      "flag": "🇴🇲",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "pakistan",
+      "name": "Pakistan",
+      "iso2": "PK",
+      "flag": "🇵🇰",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "panama",
+      "name": "Panama",
+      "iso2": "PA",
+      "flag": "🇵🇦",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "iso2": "PG",
+      "flag": "🇵🇬",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "paraguay",
+      "name": "Paraguay",
+      "iso2": "PY",
+      "flag": "🇵🇾",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "peru",
+      "name": "Peru",
+      "iso2": "PE",
+      "flag": "🇵🇪",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "philippines",
+      "name": "Philippines",
+      "iso2": "PH",
+      "flag": "🇵🇭",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "iso2": "PL",
+      "flag": "🇵🇱",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "portugal",
+      "name": "Portugal",
+      "iso2": "PT",
+      "flag": "🇵🇹",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "qatar",
+      "name": "Qatar",
+      "iso2": "QA",
+      "flag": "🇶🇦",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "romania",
+      "name": "Romania",
+      "iso2": "RO",
+      "flag": "🇷🇴",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "russia",
+      "name": "Russia",
+      "iso2": "RU",
+      "flag": "🇷🇺",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "rwanda",
+      "name": "Rwanda",
+      "iso2": "RW",
+      "flag": "🇷🇼",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "samoa",
+      "name": "Samoa",
+      "iso2": "WS",
+      "flag": "🇼🇸",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "iso2": "SA",
+      "flag": "🇸🇦",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "senegal",
+      "name": "Senegal",
+      "iso2": "SN",
+      "flag": "🇸🇳",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "serbia",
+      "name": "Serbia",
+      "iso2": "RS",
+      "flag": "🇷🇸",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "seychelles",
+      "name": "Seychelles",
+      "iso2": "SC",
+      "flag": "🇸🇨",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "iso2": "SG",
+      "flag": "🇸🇬",
+      "region": "Asia",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "slovakia",
+      "name": "Slovakia",
+      "iso2": "SK",
+      "flag": "🇸🇰",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "slovenia",
+      "name": "Slovenia",
+      "iso2": "SI",
+      "flag": "🇸🇮",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "solomon-islands",
+      "name": "Solomon Islands",
+      "iso2": "SB",
+      "flag": "🇸🇧",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "south-africa",
+      "name": "South Africa",
+      "iso2": "ZA",
+      "flag": "🇿🇦",
+      "region": "Africa",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "south-korea",
+      "name": "South Korea",
+      "iso2": "KR",
+      "flag": "🇰🇷",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "iso2": "ES",
+      "flag": "🇪🇸",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": "required-or-recommended",
+      "idpStatusApplies": "Drivers whose licence is outside Spain's recognised licence framework or not easy for authorities to read should confirm whether an IDP or official translation is needed.",
+      "idpStatusExempt": "Many EU/EEA licence holders can drive under EU recognition rules.",
+      "drivingSide": "right",
+      "speedUrbanKmh": 50,
+      "speedRuralKmh": 90,
+      "speedMotorwayKmh": 120,
+      "conventions": [
+        "1949-geneva",
+        "1968-vienna"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "DGT - Normas basicas de circulacion",
+          "url": "https://www.dgt.es/muevete-con-seguridad/viaja-seguro/consejos-extranjeros/normas-basicas-de-circulacion/index.html",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits",
+            "driving-side"
+          ]
+        },
+        {
+          "name": "DGT - Velocidad",
+          "url": "https://www.dgt.es/comunicacion/notas-de-prensa/la-velocidad-sigue-siendo-uno-de-los-principales-factores-concurrentes-de-los-accidentes-de-trafico",
+          "publisherType": "government",
+          "supports": [
+            "speed-limits",
+            "penalties"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention",
+            "rental-considerations"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "italy",
+        "france",
+        "mexico"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Spain uses different speed rules for urban roads, conventional roads, and motorways. Rental companies may still ask for an IDP even when local law does not."
+    },
+    {
+      "slug": "sri-lanka",
+      "name": "Sri Lanka",
+      "iso2": "LK",
+      "flag": "🇱🇰",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "suriname",
+      "name": "Suriname",
+      "iso2": "SR",
+      "flag": "🇸🇷",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "sweden",
+      "name": "Sweden",
+      "iso2": "SE",
+      "flag": "🇸🇪",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "switzerland",
+      "name": "Switzerland",
+      "iso2": "CH",
+      "flag": "🇨🇭",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "taiwan",
+      "name": "Taiwan",
+      "iso2": "TW",
+      "flag": "🇹🇼",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "tanzania",
+      "name": "Tanzania",
+      "iso2": "TZ",
+      "flag": "🇹🇿",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "thailand",
+      "name": "Thailand",
+      "iso2": "TH",
+      "flag": "🇹🇭",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "left",
+      "idpStatus": "required",
+      "idpStatusApplies": "Foreign tourists can use an IDP under the 1949 Geneva Convention, or an ASEAN licence where that applies.",
+      "idpStatusExempt": "Some ASEAN licence holders may be accepted under regional arrangements.",
+      "drivingSide": "left",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "Thailand.go.th - temporary driver's license for foreign tourists",
+          "url": "https://www.thailand.go.th/issue-focus-detail/001_01_226?hl=en",
+          "publisherType": "government",
+          "supports": [
+            "idp-requirement",
+            "documents-to-carry"
+          ]
+        },
+        {
+          "name": "Thailand.go.th - tourist driving permission",
+          "url": "https://www.thailand.go.th/visit-thailand-detail/001_01_227",
+          "publisherType": "government",
+          "supports": [
+            "vehicle-permission"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "japan",
+        "australia",
+        "united-arab-emirates"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "Thailand specifically identifies the 1949 Geneva Convention IDP for foreign tourists. If your licence cannot be used, a temporary Thai licence may be required."
+    },
+    {
+      "slug": "tonga",
+      "name": "Tonga",
+      "iso2": "TO",
+      "flag": "🇹🇴",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "trinidad-and-tobago",
+      "name": "Trinidad and Tobago",
+      "iso2": "TT",
+      "flag": "🇹🇹",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "tunisia",
+      "name": "Tunisia",
+      "iso2": "TN",
+      "flag": "🇹🇳",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "turkey",
+      "name": "Turkey",
+      "iso2": "TR",
+      "flag": "🇹🇷",
+      "region": "Europe",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "uganda",
+      "name": "Uganda",
+      "iso2": "UG",
+      "flag": "🇺🇬",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "ukraine",
+      "name": "Ukraine",
+      "iso2": "UA",
+      "flag": "🇺🇦",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "iso2": "AE",
+      "flag": "🇦🇪",
+      "region": "Middle East",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": "required-or-exempted-licence",
+      "idpStatusApplies": "Visitors may drive with a valid international driving licence or a foreign licence from an exempted/recognised country under UAE rules.",
+      "idpStatusExempt": "Some foreign licences are recognised or exempted by UAE authorities.",
+      "drivingSide": "right",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva",
+        "1968-vienna"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "UAE Government - Driving abroad",
+          "url": "https://u.ae/en/information-and-services/passports-and-traveling/driving-abroad",
+          "publisherType": "government",
+          "supports": [
+            "idp-definition",
+            "issuer-context"
+          ]
+        },
+        {
+          "name": "UAE Federal Decree-Law on Traffic Regulation",
+          "url": "https://uaelegislation.gov.ae/en/legislations/2598",
+          "publisherType": "government",
+          "supports": [
+            "foreign-licence-conditions",
+            "penalties"
+          ]
+        },
+        {
+          "name": "UAE Executive Regulation of Federal Traffic Law",
+          "url": "https://uaelegislation.gov.ae/en/legislations/1020",
+          "publisherType": "government",
+          "supports": [
+            "visitor-driving",
+            "international-licence"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "thailand",
+        "japan",
+        "australia"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "UAE legislation distinguishes visitors, transit, recognised licences, and valid international licences. Confirm recognition status before driving."
+    },
+    {
+      "slug": "united-kingdom",
+      "name": "United Kingdom",
+      "iso2": "GB",
+      "flag": "🇬🇧",
+      "region": "Europe",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "united-states",
+      "name": "United States",
+      "iso2": "US",
+      "flag": "🇺🇸",
+      "region": "Americas",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": "state-and-provider-dependent",
+      "idpStatusApplies": "Visitors should check the state where they will drive and the rental provider, especially if the licence is not in English.",
+      "idpStatusExempt": "Requirements vary by state, licence language, and rental provider.",
+      "drivingSide": "right",
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+        "1949-geneva"
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+        "Original valid driving licence",
+        "Passport or travel ID where requested",
+        "IDP, official translation, or private translation-support document where applicable"
+      ],
+      "officialSources": [
+        {
+          "name": "USAGov - International driver's license for U.S. citizens",
+          "url": "https://www.usa.gov/international-drivers-license",
+          "publisherType": "government",
+          "supports": [
+            "aaa-aata",
+            "documents-to-carry",
+            "idp-definition"
+          ]
+        },
+        {
+          "name": "U.S. Department of State - Driving and road safety abroad",
+          "url": "https://travel.state.gov/content/travel/en/international-travel/before-you-go/driving-and-road-safety.html",
+          "publisherType": "government",
+          "supports": [
+            "state-variation",
+            "safety"
+          ]
+        },
+        {
+          "name": "UK Government IDP country checker",
+          "url": "https://www.gov.uk/driving-abroad/international-driving-permit",
+          "publisherType": "government",
+          "supports": [
+            "idp-convention",
+            "rental-considerations"
+          ]
+        }
+      ],
+      "lastVerified": "2026-07-23",
+      "relatedCountries": [
+        "mexico",
+        "australia",
+        "germany"
+      ],
+      "pilot": true,
+      "indexable": true,
+      "researchStatus": "pilot-verified",
+      "practicalGuidance": "The United States is not a single licensing rulebook for visitors. State authorities and rental providers can apply different requirements."
+    },
+    {
+      "slug": "uruguay",
+      "name": "Uruguay",
+      "iso2": "UY",
+      "flag": "🇺🇾",
+      "region": "Americas",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "vanuatu",
+      "name": "Vanuatu",
+      "iso2": "VU",
+      "flag": "🇻🇺",
+      "region": "Oceania",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "vietnam",
+      "name": "Vietnam",
+      "iso2": "VN",
+      "flag": "🇻🇳",
+      "region": "Asia",
+      "legacyStatus": "required",
+      "legacyDrivingSide": "right",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "zambia",
+      "name": "Zambia",
+      "iso2": "ZM",
+      "flag": "🇿🇲",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    },
+    {
+      "slug": "zimbabwe",
+      "name": "Zimbabwe",
+      "iso2": "ZW",
+      "flag": "🇿🇼",
+      "region": "Africa",
+      "legacyStatus": "recommended",
+      "legacyDrivingSide": "left",
+      "idpStatus": null,
+      "idpStatusApplies": null,
+      "idpStatusExempt": null,
+      "drivingSide": null,
+      "speedUrbanKmh": null,
+      "speedRuralKmh": null,
+      "speedMotorwayKmh": null,
+      "conventions": [
+
+      ],
+      "digitalDocumentStatus": "unclear",
+      "digitalDocumentNote": "No confirmed official national policy was found. Carry the printed document and original licence when a physical document is requested.",
+      "minimumRentalAge": null,
+      "bacLimit": null,
+      "documentsToCarry": [
+
+      ],
+      "officialSources": [
+
+      ],
+      "lastVerified": null,
+      "relatedCountries": [
+
+      ],
+      "pilot": false,
+      "indexable": false,
+      "researchStatus": "DATA REQUIRED"
+    }
+  ]
+}

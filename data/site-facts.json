@@ -1,0 +1,9 @@
+{
+  "digitalDeliveryEstimateMinutes": 5,
+  "digitalDeliveryCondition": "after successful review and approval",
+  "digitalDeliveryWording": "After successful review and approval, the digital document is usually delivered by email in approximately 5 minutes.",
+  "printedDeliveryText": "Printed document timing depends on destination, shipping method, and courier availability shown during the application flow.",
+  "countryDatasetCount": 124,
+  "pilotCountryCount": 10,
+  "lastUpdated": "2026-07-23"
+}

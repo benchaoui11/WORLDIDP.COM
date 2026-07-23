@@ -1,0 +1,18 @@
+{
+  "@type": "Organization",
+  "name": "WORLDIDP INTERNATIONAL LLC",
+  "alternateName": "WorldIDP",
+  "url": "https://worldidp.com/",
+  "logo": "https://worldidp.com/IMAGES/worldidp-international-driving-permit-logo.webp",
+  "email": "hello@worldidp.com",
+            "telephone": "+14064764656",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "127 N HIGGINS AVE STE 307D #2849",
+    "addressLocality": "Missoula",
+    "addressRegion": "MT",
+    "postalCode": "59802",
+    "addressCountry": "US"
+  },
+  "description": "WorldIDP is a private multilingual driving-document translation service for international travelers. It is not a government authority and does not replace a valid original driver's license."
+}

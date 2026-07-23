@@ -1,0 +1,125 @@
+slug,name,iso2,region,evidenceTier,indexable,idpStatus,idpStatusApplies,drivingSide,conventions,digitalDocumentStatus,speedUrbanKmh,speedRuralKmh,speedMotorwayKmh,minimumRentalAge,bacLimit,sourceCount,sourceUrls,lastVerified,researchStatus
+albania,Albania,AL,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+algeria,Algeria,DZ,Africa,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+argentina,Argentina,AR,Americas,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+australia,Australia,AU,Oceania,A,True,translation-or-state-dependent,"Visitors with non-English licences should carry an English translation or IDP, and state time limits vary.",left,1949-geneva,unclear,,,,,,3,https://austroads.gov.au/drivers-and-vehicles/overseas-drivers | https://www.nsw.gov.au/driving-boating-and-transport/driver-and-rider-licences/visiting-or-moving-to-nsw/visiting-from-overseas-or-interstate | https://www.service.nsw.gov.au/transaction/apply-for-an-international-driving-permit-idp,2026-07-23,verified
+austria,Austria,AT,Europe,A,True,required-for-non-eu-licences,Licences issued outside the EU or EEA must be accompanied by an International Driving Permit or a certified German translation,right,1968-vienna,unclear,50,100,130,19,0.05,3,https://www.gov.uk/guidance/driving-in-austria | https://www.asfinag.at/ | https://www.oeamtc.at/,2026-07-23,verified
+bahamas,Bahamas,BS,Americas,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+bahrain,Bahrain,BH,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+bangladesh,Bangladesh,BD,Asia,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+barbados,Barbados,BB,Americas,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+belarus,Belarus,BY,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+belgium,Belgium,BE,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+bolivia,Bolivia,BO,Americas,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+bosnia-and-herzegovina,Bosnia and Herzegovina,BA,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+botswana,Botswana,BW,Africa,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+brazil,Brazil,BR,Americas,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+brunei,Brunei,BN,Asia,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+bulgaria,Bulgaria,BG,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+cambodia,Cambodia,KH,Asia,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+canada,Canada,CA,Americas,A,True,province-and-duration-dependent,"Rules are set by each province and territory rather than federally. Visitors may generally drive on a valid foreign licence for a limited period, commonly up to 90 days, though the exact window differs by province",right,1949-geneva,unclear,50,80,100,21,0.08,3,https://www.gov.uk/foreign-travel-advice/canada | https://tc.canada.ca/en/road-transportation | https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/new-life-canada/driving.html,2026-07-23,verified
+chile,Chile,CL,Americas,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+china,China,CN,Asia,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+colombia,Colombia,CO,Americas,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+costa-rica,Costa Rica,CR,Americas,A,True,tourist-stay-duration-rule,"Visitors may generally drive on a valid foreign licence for the duration of their authorised tourist stay, carried together with the passport showing the entry stamp",right,1949-geneva,unclear,40,60,100,21,0.05,3,https://www.gov.uk/foreign-travel-advice/costa-rica | https://www.csv.go.cr/ | https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/CostaRica.html,2026-07-23,verified
+croatia,Croatia,HR,Europe,A,True,required-for-non-eu-licences,Licences issued outside the EU or EEA should be accompanied by an International Driving Permit when driving in Croatia,right,1949-geneva|1968-vienna,unclear,50,90,130,21,0.05,3,https://www.gov.uk/guidance/driving-in-croatia | https://mup.gov.hr/ | https://www.hak.hr/,2026-07-23,verified
+cuba,Cuba,CU,Americas,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+cyprus,Cyprus,CY,Europe,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+czech-republic,Czech Republic,CZ,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+denmark,Denmark,DK,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+dominican-republic,Dominican Republic,DO,Americas,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+ecuador,Ecuador,EC,Americas,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+egypt,Egypt,EG,Africa,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+estonia,Estonia,EE,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+eswatini,Eswatini,SZ,Africa,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+ethiopia,Ethiopia,ET,Africa,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+fiji,Fiji,FJ,Oceania,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+finland,Finland,FI,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+france,France,FR,Europe,A,True,recommended-for-non-french-or-non-eu-licences,Drivers with licences that are not in French or are not covered by recognition arrangements should carry a translation or IDP.,right,1949-geneva|1968-vienna,unclear,50,80,130,,,3,https://www.service-public.gouv.fr/particuliers/vosdroits/F19460 | https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006159600/ | https://www.gov.uk/driving-abroad/international-driving-permit,2026-07-23,verified
+germany,Germany,DE,Europe,A,True,recommended-for-non-eu-or-non-german-licences,Visitors whose licence is outside the EU/EEA recognition framework or not written in a readable format should check German translation or IDP requirements.,right,1949-geneva|1968-vienna,unclear,50,100,,,,3,https://www.gesetze-im-internet.de/stvo_2013/__3.html | https://www.gesetze-im-internet.de/bkatv_2013/anhang.html | https://www.gov.uk/driving-abroad/international-driving-permit,2026-07-23,verified
+ghana,Ghana,GH,Africa,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+greece,Greece,GR,Europe,A,True,required-for-non-eu-licences,Drivers holding a licence issued outside the EU or EEA are expected to carry an International Driving Permit alongside the original licence when driving in Greece,right,1949-geneva|1968-vienna,unclear,50,90,130,21,0.05,3,https://www.gov.uk/guidance/driving-in-greece | https://www.gov.uk/driving-abroad/international-driving-permit | https://www.yme.gr/,2026-07-23,verified
+guyana,Guyana,GY,Americas,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+hungary,Hungary,HU,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+iceland,Iceland,IS,Europe,A,True,latin-alphabet-licence-generally-accepted,A full valid licence written in the Latin alphabet is generally accepted for visitors. A licence in a non-Latin script is where an International Driving Permit or official translation becomes relevant,right,1949-geneva,unclear,50,80,90,20,0.05,3,https://www.gov.uk/guidance/driving-in-iceland | https://www.samgongustofa.is/ | https://safetravel.is/,2026-07-23,verified
+india,India,IN,Asia,A,True,required-for-foreign-licences,Foreign visitors are expected to carry an International Driving Permit alongside their original national licence when driving in India,left,1949-geneva,unclear,50,80,100,21,0.03,3,https://parivahan.gov.in/ | https://www.gov.uk/foreign-travel-advice/india | https://morth.nic.in/,2026-07-23,verified
+indonesia,Indonesia,ID,Asia,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+iran,Iran,IR,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+iraq,Iraq,IQ,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+ireland,Ireland,IE,Europe,A,True,twelve-month-visitor-rule,"Visitors may generally drive on a full valid licence from their home country for up to 12 months. An International Driving Permit is not what grants that permission, though it can help where the licence is not in English or Irish",left,1949-geneva,unclear,50,80,120,21,0.05,3,https://www.gov.uk/guidance/driving-in-ireland | https://www.rsa.ie/ | https://www.citizensinformation.ie/,2026-07-23,verified
+israel,Israel,IL,Middle East,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+italy,Italy,IT,Europe,A,True,required-or-official-translation,Drivers whose licence is not issued in the EU/EEA or not accompanied by a suitable official translation should check Italian requirements before driving.,right,1949-geneva|1968-vienna,unclear,50,90,130,,,4,https://www.aci.it/fileadmin/cds/art-142.php | https://www.mit.gov.it/ | https://www.italia.it/en/italy/things-to-do/driving-in-italy | https://www.gov.uk/driving-abroad/international-driving-permit,2026-07-23,verified
+jamaica,Jamaica,JM,Americas,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+japan,Japan,JP,Asia,A,True,required-1949-geneva-only,"Japan recognises only IDPs issued under the 1949 Geneva Convention, with separate translation rules for a limited set of foreign licences.",left,1949-geneva,unclear,,,,,,3,https://www.keishicho.metro.tokyo.lg.jp/multilingual/english/finding_services/faq/drivers_license/drivers_license01.html | https://www.npa.go.jp/policies/application/license_renewal/have_DL_issed_another_country.html/the_road_traffic_law.html | https://www.npa.go.jp/english/bureau/traffic/index.html,2026-07-23,verified
+jordan,Jordan,JO,Middle East,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+kazakhstan,Kazakhstan,KZ,Asia,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+kenya,Kenya,KE,Africa,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+kuwait,Kuwait,KW,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+laos,Laos,LA,Asia,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+latvia,Latvia,LV,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+lebanon,Lebanon,LB,Middle East,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+lithuania,Lithuania,LT,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+luxembourg,Luxembourg,LU,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+malaysia,Malaysia,MY,Asia,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+maldives,Maldives,MV,Asia,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+malta,Malta,MT,Europe,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+mauritius,Mauritius,MU,Africa,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+mexico,Mexico,MX,Americas,A,True,licence-and-origin-dependent,"Visitors should confirm requirements with the destination authority, embassy, consulate, and rental provider before driving.",right,1926-paris,unclear,,,110,,,3,https://www.gob.mx/sre/documentos/conducir-en-el-extranjero | https://www.gob.mx/sict/prensa/sict-recomienda-respetar-los-limites-de-velocidad-al-manejar-por-carretera-durante-vacaciones | https://www.gov.uk/foreign-travel-advice/mexico/safety-and-security,2026-07-23,verified
+moldova,Moldova,MD,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+mongolia,Mongolia,MN,Asia,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+montenegro,Montenegro,ME,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+morocco,Morocco,MA,Africa,A,True,required-for-non-latin-or-non-french-licences,"Licences issued in a non-Latin script, or otherwise not readable in French or Arabic, should be accompanied by an International Driving Permit",right,1949-geneva|1968-vienna,unclear,60,100,120,21,0.0,3,https://www.narsa.ma/ | https://www.gov.uk/foreign-travel-advice/morocco | https://www.transport.gov.ma/,2026-07-23,verified
+mozambique,Mozambique,MZ,Africa,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+namibia,Namibia,NA,Africa,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+nepal,Nepal,NP,Asia,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+netherlands,Netherlands,NL,Europe,A,True,required-for-non-eu-licences,Licences issued outside the EU or EEA should be accompanied by an International Driving Permit or an official Dutch translation,right,1949-geneva|1968-vienna,unclear,50,80,100,21,0.05,3,https://www.gov.uk/guidance/driving-in-the-netherlands | https://www.rdw.nl/ | https://www.government.nl/topics/mobility-public-transport-and-road-safety,2026-07-23,verified
+new-zealand,New Zealand,NZ,Oceania,A,True,english-licence-or-translation-required,"Visitors may drive for up to 12 months on a valid overseas licence, but it must be in English or accompanied by an accurate English translation — an International Driving Permit is one accepted form of that translation",left,1949-geneva,unclear,50,100,100,21,0.05,3,https://www.nzta.govt.nz/driver-licences/new-residents-and-visitors/ | https://www.gov.uk/foreign-travel-advice/new-zealand | https://www.nzta.govt.nz/roadcode/,2026-07-23,verified
+nigeria,Nigeria,NG,Africa,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+north-macedonia,North Macedonia,MK,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+norway,Norway,NO,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+oman,Oman,OM,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+pakistan,Pakistan,PK,Asia,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+panama,Panama,PA,Americas,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+papua-new-guinea,Papua New Guinea,PG,Oceania,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+paraguay,Paraguay,PY,Americas,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+peru,Peru,PE,Americas,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+philippines,Philippines,PH,Asia,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+poland,Poland,PL,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+portugal,Portugal,PT,Europe,A,True,required-for-non-eu-licences,Licences issued outside the EU or EEA should be accompanied by an International Driving Permit or an official Portuguese translation,right,1949-geneva|1968-vienna,unclear,50,90,120,21,0.05,3,https://www.gov.uk/guidance/driving-in-portugal | https://www.ansr.pt/ | https://www.imt-ip.pt/,2026-07-23,verified
+qatar,Qatar,QA,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+romania,Romania,RO,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+russia,Russia,RU,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+rwanda,Rwanda,RW,Africa,B,False,,,right,1949-geneva,unclear,,,,,,0,,,partial-evidence
+samoa,Samoa,WS,Oceania,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+saudi-arabia,Saudi Arabia,SA,Middle East,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+senegal,Senegal,SN,Africa,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+serbia,Serbia,RS,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+seychelles,Seychelles,SC,Africa,B,False,,,left,1968-vienna,unclear,,,,,,0,,,partial-evidence
+singapore,Singapore,SG,Asia,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+slovakia,Slovakia,SK,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+slovenia,Slovenia,SI,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+solomon-islands,Solomon Islands,SB,Oceania,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+south-africa,South Africa,ZA,Africa,B,False,,,left,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+south-korea,South Korea,KR,Asia,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+spain,Spain,ES,Europe,A,True,required-or-recommended,Drivers whose licence is outside Spain's recognised licence framework or not easy for authorities to read should confirm whether an IDP or official translation is needed.,right,1949-geneva|1968-vienna,unclear,50,90,120,,,3,https://www.dgt.es/muevete-con-seguridad/viaja-seguro/consejos-extranjeros/normas-basicas-de-circulacion/index.html | https://www.dgt.es/comunicacion/notas-de-prensa/la-velocidad-sigue-siendo-uno-de-los-principales-factores-concurrentes-de-los-accidentes-de-trafico | https://www.gov.uk/driving-abroad/international-driving-permit,2026-07-23,verified
+sri-lanka,Sri Lanka,LK,Asia,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+suriname,Suriname,SR,Americas,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+sweden,Sweden,SE,Europe,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+switzerland,Switzerland,CH,Europe,A,True,twelve-month-visitor-rule,Visitors may generally drive on a valid foreign licence for up to 12 months. An International Driving Permit or official translation is what makes a licence in a non-Latin script readable to Swiss officers,right,1949-geneva|1968-vienna,unclear,50,80,120,20,0.05,3,https://www.gov.uk/guidance/driving-in-switzerland | https://www.astra.admin.ch/ | https://www.ch.ch/en/vehicles-and-traffic/motorway-charge-sticker/,2026-07-23,verified
+taiwan,Taiwan,TW,Asia,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+tanzania,Tanzania,TZ,Africa,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+thailand,Thailand,TH,Asia,A,True,required,"Foreign tourists can use an IDP under the 1949 Geneva Convention, or an ASEAN licence where that applies.",left,1949-geneva,unclear,,,,,,3,https://www.thailand.go.th/issue-focus-detail/001_01_226?hl=en | https://www.thailand.go.th/visit-thailand-detail/001_01_227 | https://www.gov.uk/driving-abroad/international-driving-permit,2026-07-23,verified
+tonga,Tonga,TO,Oceania,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+trinidad-and-tobago,Trinidad and Tobago,TT,Americas,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+tunisia,Tunisia,TN,Africa,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+turkey,Turkey,TR,Europe,A,True,six-month-visitor-rule,"Visitors may generally drive on a valid foreign licence for up to six months. Where the licence is not in a Latin script, an International Driving Permit or official Turkish translation is what makes it readable at a check",right,1949-geneva|1968-vienna,unclear,50,90,120,21,0.05,3,https://www.gov.uk/foreign-travel-advice/turkey/safety-and-security | https://www.kgm.gov.tr/ | https://www.turing.org.tr/,2026-07-23,verified
+uganda,Uganda,UG,Africa,B,False,,,left,1949-geneva,unclear,,,,,,0,,,partial-evidence
+ukraine,Ukraine,UA,Europe,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+united-arab-emirates,United Arab Emirates,AE,Middle East,A,True,required-or-exempted-licence,Visitors may drive with a valid international driving licence or a foreign licence from an exempted/recognised country under UAE rules.,right,1949-geneva|1968-vienna,unclear,,,,,,3,https://u.ae/en/information-and-services/passports-and-traveling/driving-abroad | https://uaelegislation.gov.ae/en/legislations/2598 | https://uaelegislation.gov.ae/en/legislations/1020,2026-07-23,verified
+united-kingdom,United Kingdom,GB,Europe,A,True,generally-not-required-for-visitors,"Visitors holding a full, valid driving licence from any country can generally drive small vehicles listed on that licence in Great Britain for up to 12 months from the date they last entered, without an International Driving Permit",left,1926-paris|1949-geneva|1968-vienna,unclear,48,97,113,,0.08,4,https://www.gov.uk/driving-nongb-licence | https://www.gov.uk/driving-abroad/international-driving-permit | https://www.gov.uk/speed-limits | https://www.gov.uk/drink-drive-limit,2026-07-23,verified
+united-states,United States,US,Americas,A,True,state-and-provider-dependent,"Driving privileges for visitors are set by each state, not federally. Most states allow a visitor to drive on a valid foreign licence for a limited period, and a licence not written in English is where a translation or International Driving Permit becomes practically necessary",right,1949-geneva,unclear,40,89,113,21,0.08,4,https://www.usa.gov/international-drivers-license | https://travel.state.gov/content/travel/en/international-travel/before-you-go/driving-and-road-safety.html | https://www.aaa.com/vacation/idpf.html | https://www.nhtsa.gov/risky-driving/drunk-driving,2026-07-23,verified
+uruguay,Uruguay,UY,Americas,B,False,,,right,1968-vienna,unclear,,,,,,0,,,partial-evidence
+vanuatu,Vanuatu,VU,Oceania,B,False,,,right,,unclear,,,,,,0,,,partial-evidence
+vietnam,Vietnam,VN,Asia,B,False,,,right,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence
+zambia,Zambia,ZM,Africa,B,False,,,left,,unclear,,,,,,0,,,partial-evidence
+zimbabwe,Zimbabwe,ZW,Africa,B,False,,,left,1949-geneva|1968-vienna,unclear,,,,,,0,,,partial-evidence

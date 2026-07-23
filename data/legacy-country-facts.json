@@ -1,0 +1,1865 @@
+[
+ {
+  "name": "Albania",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Austria",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Belarus",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Belgium",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Bulgaria",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "140 km/h"
+  ],
+  "speed": [
+   "140"
+  ],
+  "note": null
+ },
+ {
+  "name": "Croatia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Cyprus",
+  "region": "Europe",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Czech Republic",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Denmark",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Estonia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Finland",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "France",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": "EU/most licences accepted; IDP useful for non-Latin licences."
+ },
+ {
+  "name": "Germany",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130",
+   "130"
+  ],
+  "note": "Autobahns have no general limit (130 km/h advisory)."
+ },
+ {
+  "name": "Greece",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Hungary",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Iceland",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "90 km/h"
+  ],
+  "speed": [
+   "90",
+   "90"
+  ],
+  "note": "Single national speed limit of 90 km/h on open roads."
+ },
+ {
+  "name": "Ireland",
+  "region": "Europe",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Italy",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": "An IDP is required alongside your licence."
+ },
+ {
+  "name": "Latvia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Lithuania",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Luxembourg",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Malta",
+  "region": "Europe",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Moldova",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Montenegro",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Netherlands",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130",
+   "100"
+  ],
+  "note": "Many motorways cap at 100 km/h during the day."
+ },
+ {
+  "name": "North Macedonia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Norway",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Poland",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "140 km/h"
+  ],
+  "speed": [
+   "140"
+  ],
+  "note": null
+ },
+ {
+  "name": "Portugal",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Romania",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Russia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Serbia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Slovakia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Slovenia",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Spain",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Sweden",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Switzerland",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Turkey",
+  "region": "Europe",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Ukraine",
+  "region": "Europe",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "United Kingdom",
+  "region": "Europe",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "112 km/h"
+  ],
+  "speed": [
+   "112"
+  ],
+  "note": "Drive on the left; an IDP helps if your licence isn&#x27;t in English."
+ },
+ {
+  "name": "Bahrain",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "An IDP is required for visitors."
+ },
+ {
+  "name": "Iran",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Iraq",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Israel",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Jordan",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Kuwait",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "An IDP is required for visitors."
+ },
+ {
+  "name": "Lebanon",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Oman",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "An IDP is required for visitors."
+ },
+ {
+  "name": "Qatar",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "An IDP is required for visitors."
+ },
+ {
+  "name": "Saudi Arabia",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "United Arab Emirates",
+  "region": "Middle East",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "140 km/h"
+  ],
+  "speed": [
+   "140"
+  ],
+  "note": "Dubai &amp; Abu Dhabi: an IDP is required to drive."
+ },
+ {
+  "name": "Bangladesh",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Brunei",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Cambodia",
+  "region": "Asia",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "China",
+  "region": "Asia",
+  "side": "R",
+  "idp": "limited",
+  "badges": [
+   "Special rules",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "China doesn&#x27;t recognise the IDP — a temporary Chinese permit is needed."
+ },
+ {
+  "name": "India",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Drive on the left; IDP required for most foreign drivers."
+ },
+ {
+  "name": "Indonesia",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Bali included — carry an IDP with your licence."
+ },
+ {
+  "name": "Japan",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "Requires a 1949 Geneva-Convention IDP."
+ },
+ {
+  "name": "Kazakhstan",
+  "region": "Asia",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Laos",
+  "region": "Asia",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "90 km/h"
+  ],
+  "speed": [
+   "90"
+  ],
+  "note": null
+ },
+ {
+  "name": "Malaysia",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "An IDP is required for foreign drivers."
+ },
+ {
+  "name": "Maldives",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "60 km/h"
+  ],
+  "speed": [
+   "60"
+  ],
+  "note": null
+ },
+ {
+  "name": "Mongolia",
+  "region": "Asia",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Nepal",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Pakistan",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Philippines",
+  "region": "Asia",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Foreign licences valid up to 90 days; IDP advised."
+ },
+ {
+  "name": "Singapore",
+  "region": "Asia",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "90 km/h"
+  ],
+  "speed": [
+   "90"
+  ],
+  "note": null
+ },
+ {
+  "name": "South Korea",
+  "region": "Asia",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "An IDP is required for foreign drivers."
+ },
+ {
+  "name": "Sri Lanka",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Taiwan",
+  "region": "Asia",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "An IDP is required for foreign drivers."
+ },
+ {
+  "name": "Thailand",
+  "region": "Asia",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "Carry an IDP with your licence; drive on the left."
+ },
+ {
+  "name": "Vietnam",
+  "region": "Asia",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "Recognises 1968 Vienna-Convention IDPs."
+ },
+ {
+  "name": "Algeria",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Botswana",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Egypt",
+  "region": "Africa",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Eswatini",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Ethiopia",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Ghana",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Kenya",
+  "region": "Africa",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Mauritius",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Morocco",
+  "region": "Africa",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Mozambique",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Namibia",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Nigeria",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Rwanda",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "60 km/h"
+  ],
+  "speed": [
+   "60"
+  ],
+  "note": null
+ },
+ {
+  "name": "Senegal",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Seychelles",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "65 km/h"
+  ],
+  "speed": [
+   "65"
+  ],
+  "note": null
+ },
+ {
+  "name": "South Africa",
+  "region": "Africa",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "Drive on the left; IDP required."
+ },
+ {
+  "name": "Tanzania",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Tunisia",
+  "region": "Africa",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Uganda",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Zambia",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Zimbabwe",
+  "region": "Africa",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Argentina",
+  "region": "Americas",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "130 km/h"
+  ],
+  "speed": [
+   "130"
+  ],
+  "note": null
+ },
+ {
+  "name": "Bahamas",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Barbados",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Bolivia",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Brazil",
+  "region": "Americas",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "An IDP is required for foreign drivers."
+ },
+ {
+  "name": "Canada",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Chile",
+  "region": "Americas",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Colombia",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Costa Rica",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "90 km/h"
+  ],
+  "speed": [
+   "90"
+  ],
+  "note": null
+ },
+ {
+  "name": "Cuba",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Dominican Republic",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": null
+ },
+ {
+  "name": "Ecuador",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Guyana",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Jamaica",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Mexico",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Panama",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Paraguay",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Peru",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "Suriname",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "Trinidad and Tobago",
+  "region": "Americas",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": null
+ },
+ {
+  "name": "United States",
+  "region": "Americas",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "120 km/h"
+  ],
+  "speed": [
+   "120"
+  ],
+  "note": "Required in some states and for non-English licences (e.g. Arabic) — carry an IDP."
+ },
+ {
+  "name": "Uruguay",
+  "region": "Americas",
+  "side": "R",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": null
+ },
+ {
+  "name": "Australia",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "110 km/h"
+  ],
+  "speed": [
+   "110"
+  ],
+  "note": "Drive on the left; IDP advised for non-English licences."
+ },
+ {
+  "name": "Fiji",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "80 km/h"
+  ],
+  "speed": [
+   "80"
+  ],
+  "note": null
+ },
+ {
+  "name": "New Zealand",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "required",
+  "badges": [
+   "IDP required",
+   "",
+   "100 km/h"
+  ],
+  "speed": [
+   "100"
+  ],
+  "note": "Drive on the left."
+ },
+ {
+  "name": "Papua New Guinea",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "75 km/h"
+  ],
+  "speed": [
+   "75"
+  ],
+  "note": null
+ },
+ {
+  "name": "Samoa",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "56 km/h"
+  ],
+  "speed": [
+   "56"
+  ],
+  "note": null
+ },
+ {
+  "name": "Solomon Islands",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "60 km/h"
+  ],
+  "speed": [
+   "60"
+  ],
+  "note": null
+ },
+ {
+  "name": "Tonga",
+  "region": "Oceania",
+  "side": "L",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "70 km/h"
+  ],
+  "speed": [
+   "70"
+  ],
+  "note": null
+ },
+ {
+  "name": "Vanuatu",
+  "region": "Oceania",
+  "side": "R",
+  "idp": "recommended",
+  "badges": [
+   "IDP accepted",
+   "",
+   "60 km/h"
+  ],
+  "speed": [
+   "60"
+  ],
+  "note": null
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "purpose": "Real, owner-confirmed public profiles for WORLDIDP INTERNATIONAL LLC. Used to populate Organization.sameAs.",
+    "rule": "Set verified:true ONLY for a profile that exists and is controlled by the company. Never add a speculative or placeholder URL — a sameAs pointing at a non-existent profile actively damages entity resolution.",
+    "lastReviewed": "2026-07-23"
+  },
+  "profiles": [
+    {
+      "platform": "trustpilot",
+      "url": "https://www.trustpilot.com/review/worldidp.com",
+      "verified": true,
+      "note": "Confirmed by the site owner, 23 July 2026"
+    },
+    {
+      "platform": "facebook",
+      "url": "",
+      "verified": false,
+      "note": "OWNER ACTION: supply URL or leave blank"
+    },
+    {
+      "platform": "instagram",
+      "url": "",
+      "verified": false,
+      "note": "OWNER ACTION: supply URL or leave blank"
+    },
+    {
+      "platform": "linkedin",
+      "url": "",
+      "verified": false,
+      "note": "OWNER ACTION: supply URL or leave blank"
+    },
+    {
+      "platform": "x",
+      "url": "",
+      "verified": false,
+      "note": "OWNER ACTION: supply URL or leave blank"
+    }
+  ]
+}

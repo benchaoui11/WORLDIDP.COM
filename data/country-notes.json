@@ -1,0 +1,690 @@
+{
+  "_meta": {
+    "purpose": "Supporting explanatory notes for countries that already have sourced idpStatus data. These notes interpret the cited sources for travellers. They introduce no new factual claims beyond what the linked official sources already establish.",
+    "rule": "A note may only exist for a country that has at least two official sources recorded in countries.json.",
+    "lastReviewed": "2026-07-23"
+  },
+  "italy": {
+    "licenceOriginNotes": "The requirement depends on where your licence was issued. EU and EEA licences are handled under EU recognition rules. A licence issued outside the EU/EEA is where an IDP or an official Italian translation becomes relevant, because Italian officers need to read the licence categories and personal details.",
+    "rentalNotes": "Rental desks in Italy are the most common place a translation is asked for, particularly at airport branches and in tourist regions. Rental terms are set by the company, not by Italian law, so a provider may ask for an IDP even where the police would not.",
+    "roadsideCheckNotes": "Italian traffic policing includes automated speed enforcement and ZTL camera zones in historic city centres. In a roadside check you are expected to produce the original licence itself; a translation document supports it but never replaces it.",
+    "countrySpecificNotes": [
+      "Italy is party to both the 1949 Geneva and 1968 Vienna Conventions, so both IDP formats have a legal basis here.",
+      "ZTL (limited traffic zone) cameras in historic centres issue fines by post to the rental company, which passes them on with an administration fee.",
+      "Motorway speed limits are set under Article 142 of the Codice della Strada."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Italy?",
+        "a": "It depends on where your licence was issued. EU and EEA licences fall under EU recognition rules. If your licence was issued outside the EU/EEA, Italian guidance points to an IDP or an official translation carried alongside the original licence."
+      },
+      {
+        "q": "Can I drive in Italy with a US licence?",
+        "a": "US licence holders are outside the EU/EEA recognition framework, so an IDP or official Italian translation is the route Italian sources describe. Carry it together with the original US licence — the translation does not stand alone."
+      },
+      {
+        "q": "Is a digital IDP accepted in Italy?",
+        "a": "We found no published Italian national policy confirming that digital-only documents are accepted. Treat printed as the safe default and confirm with your rental provider before you travel."
+      },
+      {
+        "q": "What are the motorway speed limits in Italy?",
+        "a": "Article 142 of the Codice della Strada sets 130 km/h on motorways, 90 km/h on main rural roads and 50 km/h in built-up areas, subject to posted signs and weather conditions."
+      }
+    ]
+  },
+  "france": {
+    "licenceOriginNotes": "France distinguishes between licences issued inside the EU/EEA and everything else. The practical trigger is language and format: if your licence is not in French and is not covered by a recognition arrangement, a translation or IDP is what French guidance points to.",
+    "rentalNotes": "French rental companies routinely ask non-EU visitors for a translation document at collection, especially at airport and rail-station branches. This is a contractual requirement set by the company.",
+    "roadsideCheckNotes": "France operates extensive automated speed enforcement. Officers expect the original licence; a translation is supporting material. Speed limits on rural roads were reduced to 80 km/h and some departments have since restored 90 km/h on selected routes, so posted signs govern.",
+    "countrySpecificNotes": [
+      "France is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "Rural single-carriageway limits vary by department between 80 and 90 km/h — the posted sign is authoritative.",
+      "Motorway limits drop in rain and low visibility."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in France?",
+        "a": "If your licence is issued in the EU or EEA, it is handled under EU recognition rules. If your licence is issued elsewhere or is not written in French, French guidance points to carrying a translation or IDP alongside the original."
+      },
+      {
+        "q": "Can I drive in France with a US or Canadian licence?",
+        "a": "These licences sit outside the EU/EEA framework, so a translation document is the route described. Carry it with the original licence."
+      },
+      {
+        "q": "Is a digital IDP accepted in France?",
+        "a": "We found no published French national policy confirming acceptance of digital-only documents. Carry a printed copy and confirm with your rental provider."
+      },
+      {
+        "q": "What is the motorway speed limit in France?",
+        "a": "130 km/h in dry conditions, reduced in rain, with 50 km/h in built-up areas. Rural limits vary between 80 and 90 km/h by department."
+      }
+    ]
+  },
+  "germany": {
+    "licenceOriginNotes": "EU and EEA licences are recognised under EU rules. For licences issued outside that framework, the relevant question is whether German authorities can read the licence — that is what makes a translation or IDP useful.",
+    "rentalNotes": "German rental companies apply their own documentation policies and frequently request a translation for non-EU licences, independently of what the traffic code requires.",
+    "roadsideCheckNotes": "Sections of the Autobahn have no general speed limit but carry an advisory limit, and many stretches are signed or variable-limit controlled. Speed penalties are set out in the BKatV schedule.",
+    "countrySpecificNotes": [
+      "Germany is party to the 1968 Vienna Convention.",
+      "Speed rules are set under StVO section 3; penalties under the BKatV schedule.",
+      "Environmental zones (Umweltzone) in many cities require a windscreen sticker — rental vehicles usually carry one, but confirm at collection."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Germany?",
+        "a": "EU and EEA licences are recognised under EU rules. If your licence was issued outside that framework, German guidance points to carrying a translation or IDP with the original licence."
+      },
+      {
+        "q": "Is there really no speed limit on the Autobahn?",
+        "a": "Some sections have no general limit and instead carry an advisory speed. Many other sections are signed or variable-limit controlled, and those limits are enforced."
+      },
+      {
+        "q": "Is a digital IDP accepted in Germany?",
+        "a": "We found no published German national policy confirming acceptance of digital-only documents. Carry a printed copy."
+      }
+    ]
+  },
+  "spain": {
+    "licenceOriginNotes": "Many EU and EEA licence holders drive in Spain under EU recognition rules. The practical trigger for a translation is a licence outside that framework, or one that is difficult for Spanish officers to read.",
+    "rentalNotes": "Spanish rental companies commonly ask non-EU visitors for a translation at the desk, particularly in the Balearics, the Canaries and coastal tourist areas.",
+    "roadsideCheckNotes": "The DGT publishes the basic circulation and speed rules. Officers expect the original licence to be produced; a translation supports it.",
+    "countrySpecificNotes": [
+      "Spain is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "The DGT sets speed limits by road type, with 120 km/h the general motorway maximum.",
+      "Some urban areas operate low-emission zones with camera enforcement."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Spain?",
+        "a": "EU and EEA licence holders generally drive under EU recognition rules. If your licence sits outside that framework, Spanish guidance points to an IDP or official translation carried with the original."
+      },
+      {
+        "q": "Can I drive in Spain with a UK licence after Brexit?",
+        "a": "UK guidance and Spanish rules have both changed since 2021. Check the current UK Government IDP country checker before you travel, and confirm with your rental provider."
+      },
+      {
+        "q": "Is a digital IDP accepted in Spain?",
+        "a": "We found no published Spanish national policy confirming acceptance of digital-only documents. Carry a printed copy."
+      }
+    ]
+  },
+  "japan": {
+    "licenceOriginNotes": "Japan is the clearest example of why the convention matters. Japan recognises IDPs issued under the 1949 Geneva Convention only. An IDP issued under the 1968 Vienna Convention is not the accepted route here. Holders of licences from a small set of designated jurisdictions — including Switzerland, Germany, France, Belgium, Monaco and Taiwan — use an authorised Japanese translation instead.",
+    "rentalNotes": "Japanese rental companies check the IDP format at collection and will decline a vehicle if the document is not the 1949 Geneva form or an accepted translation. This is the single most common reason visitors are refused a rental car in Japan.",
+    "roadsideCheckNotes": "Traffic policing is administered by prefectural police under the National Police Agency framework. You must carry the original licence together with the IDP or authorised translation.",
+    "countrySpecificNotes": [
+      "Japan recognises the 1949 Geneva Convention IDP only — the 1968 Vienna form is not the accepted route.",
+      "Designated jurisdictions use an authorised Japanese translation instead of an IDP.",
+      "Japan drives on the left, which catches out visitors from most of continental Europe and the Americas."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Japan?",
+        "a": "Yes for most visitors, and the format matters: Japan recognises IDPs issued under the 1949 Geneva Convention. A 1968 Vienna Convention IDP is not the accepted route."
+      },
+      {
+        "q": "Can I drive in Japan with a 1968 Vienna Convention IDP?",
+        "a": "No. Japanese police guidance identifies the 1949 Geneva Convention as the recognised basis. Holders of licences from certain designated jurisdictions use an authorised Japanese translation instead."
+      },
+      {
+        "q": "Which side of the road does Japan drive on?",
+        "a": "Japan drives on the left."
+      },
+      {
+        "q": "Is a digital IDP accepted in Japan?",
+        "a": "We found no published Japanese policy accepting digital-only documents, and rental companies inspect the physical document at collection. Carry the printed original."
+      }
+    ]
+  },
+  "thailand": {
+    "licenceOriginNotes": "Thailand accepts an IDP issued under the 1949 Geneva Convention for foreign tourists. Some ASEAN licence holders are covered by regional arrangements instead. Anyone outside those two routes should check before driving.",
+    "rentalNotes": "Rental and scooter-hire providers in tourist areas vary widely in what they check. A provider not asking for a document does not mean the police will not.",
+    "roadsideCheckNotes": "Roadside checks of foreign drivers, particularly scooter riders in tourist areas, are common. Insurance cover can also be affected if you are riding without the document the policy requires.",
+    "countrySpecificNotes": [
+      "Thailand recognises the 1949 Geneva Convention IDP.",
+      "ASEAN licence holders may be covered by regional arrangements.",
+      "Thailand drives on the left.",
+      "Scooter and motorcycle hire is subject to the same document rules as cars, and the licence category must cover the vehicle."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Thailand?",
+        "a": "Yes for most foreign tourists. Thai guidance points to an IDP issued under the 1949 Geneva Convention, or an ASEAN licence where regional arrangements apply."
+      },
+      {
+        "q": "Do I need an IDP to rent a scooter in Thailand?",
+        "a": "The same document rules apply, and your licence category must cover motorcycles. Riding without the correct category can affect both enforcement and insurance."
+      },
+      {
+        "q": "Which side of the road does Thailand drive on?",
+        "a": "Thailand drives on the left."
+      }
+    ]
+  },
+  "united-states": {
+    "licenceOriginNotes": "This question runs in two directions and they have different answers. **Driving into the United States on a foreign licence:** privileges are set by each state, most allow a visiting driver a limited period on a valid foreign licence, and the practical trigger for a translation is language — a licence not in English is one an officer or rental agent cannot read. **US licence holders driving abroad:** only two organisations are authorised by the U.S. Department of State to issue US International Driving Permits — the American Automobile Association and the American Automobile Touring Alliance. No third organisation can become authorised by describing itself as official. One rule catches people out in both directions: an IDP must be issued in the country that issued your licence. A UK licence holder cannot obtain a US IDP from AAA, and a US licence holder cannot obtain one abroad.",
+    "rentalNotes": "Rental policy is the binding constraint for most visitors, and it is set by the company rather than the state. Several major providers require a translation for any licence not written in English regardless of what state law says. Minimum age is commonly 21, with substantial young-driver surcharges applied below 25 and some vehicle classes excluded entirely. A passport is routinely requested alongside the licence from foreign visitors.",
+    "roadsideCheckNotes": "Enforcement is by state and local agencies, and rules differ meaningfully across state lines. The alcohol limit is 0.08 per cent in 49 states; Utah alone applies 0.05 per cent. Speed limits range from 25 mph in residential areas to 85 mph on one Texas toll road — the widest spread of any country in this registry. Present the original licence; a translation supports it and never replaces it.",
+    "countrySpecificNotes": [
+      "The United States is party to the 1949 Geneva Convention.",
+      "Driving privileges for visiting drivers are set at state level, not federally — there is no single national rule.",
+      "AAA and AATA are the only two organisations authorised by the U.S. Department of State to issue US International Driving Permits.",
+      "An IDP must be issued in the country that issued your licence, so AAA cannot issue one to a foreign licence holder.",
+      "Utah applies a 0.05 per cent alcohol limit; the other 49 states apply 0.08 per cent.",
+      "Speed limits are posted in miles per hour and range from 25 mph residential to 85 mph on one Texas toll road.",
+      "Right turn on red is permitted in most states unless a sign prohibits it — a rule with almost no equivalent in Europe.",
+      "Minimum liability insurance amounts are set by each state and differ substantially."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit to drive in the United States?",
+        "a": "It depends on the state and on your rental provider. Most states allow a visitor to drive on a valid foreign licence for a limited period. A licence not written in English is where a translation or IDP becomes practically necessary, and rental company policy is often stricter than state law."
+      },
+      {
+        "q": "Can I drive in the US with a UK, EU or Australian licence?",
+        "a": "Generally yes for a limited period, and because those licences are in English no translation is normally needed. Check the specific state you will be driving in, and confirm your rental provider's own documentation policy separately."
+      },
+      {
+        "q": "Who issues International Driving Permits in the United States?",
+        "a": "The American Automobile Association and the American Automobile Touring Alliance. They are the only two organisations authorised by the U.S. Department of State. Both issue to holders of a valid US state licence."
+      },
+      {
+        "q": "Can a foreign visitor get an IDP from AAA while in the United States?",
+        "a": "No. An International Driving Permit must be issued in the country that issued your driving licence. A UK licence holder needs a UK-issued IDP, obtained before travelling."
+      },
+      {
+        "q": "Is a digital IDP accepted in the United States?",
+        "a": "No US state has published a policy accepting a digital-only driving document, and AAA states that digital IDPs are not available. Treat printed as the only reliable format."
+      },
+      {
+        "q": "What is the drink-drive limit in the United States?",
+        "a": "0.08 per cent in 49 states. Utah applies 0.05 per cent, the strictest in the country. Every state applies zero or near-zero tolerance to drivers under 21."
+      },
+      {
+        "q": "What are the speed limits in the United States?",
+        "a": "They vary by state and road type, posted in miles per hour: roughly 25 mph residential, 55 to 70 mph on rural highways and interstates, with a maximum of 85 mph on one Texas toll road. Posted signs govern."
+      },
+      {
+        "q": "How long can I drive in the US on a foreign licence?",
+        "a": "The permitted period is set by each state rather than federally, so there is no single answer. Check the rules of the specific state where you will be driving, and note that becoming a resident brings separate licensing requirements."
+      }
+    ]
+  },
+  "mexico": {
+    "licenceOriginNotes": "Requirements in Mexico depend on your licence origin and on the state you drive in. UK guidance, for example, indicates a UK photocard licence may be usable without an IDP. Other licence origins should confirm directly.",
+    "rentalNotes": "Mexican rental providers set their own documentation rules and mandatory local insurance requirements, which are often the more significant constraint for visitors.",
+    "roadsideCheckNotes": "Enforcement varies significantly between federal highways and state or municipal roads. Carry the original licence at all times.",
+    "countrySpecificNotes": [
+      "Mexico's treaty position sits under the 1926 Paris Convention framework rather than the 1949 or 1968 conventions.",
+      "Mandatory Mexican liability insurance is a separate requirement from any driving document.",
+      "Federal-road speed guidance is published by SICT."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Mexico?",
+        "a": "It depends on your licence origin. UK guidance indicates a UK photocard licence may be usable without one. Other visitors should confirm with the rental provider and the relevant authority."
+      },
+      {
+        "q": "Do I need special insurance to drive in Mexico?",
+        "a": "Mexican liability insurance is a separate legal requirement from any driving document and is normally arranged through the rental provider."
+      }
+    ]
+  },
+  "australia": {
+    "licenceOriginNotes": "Australia handles this at state and territory level. If your licence is in English you may be able to drive on it temporarily, subject to the rules of the state you are in. If it is not in English, an official translation or IDP is what Australian guidance points to. Time limits on driving with an overseas licence differ between states.",
+    "rentalNotes": "Rental providers apply their own rules on top of state law, and time-limit rules matter for longer stays.",
+    "roadsideCheckNotes": "Each state and territory sets its own enforcement rules and its own limit on how long a visitor may drive on an overseas licence before converting it.",
+    "countrySpecificNotes": [
+      "Australia is party to the 1949 Geneva Convention.",
+      "Rules and time limits for driving on an overseas licence are set by each state and territory, not nationally.",
+      "Australia drives on the left."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in Australia?",
+        "a": "If your licence is in English you may be able to drive on it temporarily, depending on the state or territory. If it is not in English, Australian guidance points to carrying an official translation or IDP."
+      },
+      {
+        "q": "How long can I drive in Australia on my overseas licence?",
+        "a": "Time limits are set by each state and territory rather than nationally. Check the rules for the specific state where you will be driving."
+      },
+      {
+        "q": "Which side of the road does Australia drive on?",
+        "a": "Australia drives on the left."
+      }
+    ]
+  },
+  "united-arab-emirates": {
+    "licenceOriginNotes": "The UAE distinguishes between visitors from countries whose licences are recognised or exempted and everyone else. Residents are treated differently from visitors, and the rules for converting to a UAE licence are separate again.",
+    "rentalNotes": "UAE rental providers check documentation closely and the exempted-country list is applied at the desk. Confirm your licence origin against the current list before travelling.",
+    "roadsideCheckNotes": "Traffic enforcement in the UAE is heavily automated and penalties are significant. Requirements are set out in the Federal Traffic Law and its Executive Regulation.",
+    "countrySpecificNotes": [
+      "The UAE is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "Some foreign licences are recognised or exempted under UAE rules; others require an international driving licence.",
+      "Rules for residents differ from rules for visitors."
+    ],
+    "faq": [
+      {
+        "q": "Do I need an International Driving Permit in the UAE?",
+        "a": "Visitors may drive with a valid international driving licence, or with a foreign licence from a recognised or exempted country under UAE rules. Check your licence origin against the current list."
+      },
+      {
+        "q": "Are the rules different for UAE residents?",
+        "a": "Yes. Residents are subject to separate licensing and conversion rules rather than the visitor framework."
+      }
+    ]
+  },
+  "united-kingdom": {
+    "licenceOriginNotes": "The United Kingdom is the case that reverses the usual question. If you are visiting, your own full national licence is normally what you drive on — GOV.UK sets a 12-month window for visitors driving small vehicles listed on that licence, and an International Driving Permit is not the mechanism that grants it. The IDP question in a UK context is far more often the other direction: UK licence holders driving abroad, where some destinations now expect one.",
+    "rentalNotes": "Hire companies are the constraint here, not the law. UK rental firms set their own minimum age (commonly 21 to 25), apply young-driver surcharges, and can require a licence check code from DVLA for GB licence holders. A hire desk asking for a translation of a non-Latin-alphabet licence is applying company policy, not a legal requirement.",
+    "roadsideCheckNotes": "Speed enforcement is heavily camera-based and limits are posted in miles per hour, which catches out drivers arriving from mainland Europe. Note the split drink-drive limit: England, Wales and Northern Ireland use 80 mg per 100 ml of blood, while Scotland uses 50 mg. Driving from Carlisle into Scotland changes the limit that applies to you.",
+    "countrySpecificNotes": [
+      "Visitors can generally drive on a full valid overseas licence for up to 12 months from the date they last entered Great Britain.",
+      "Northern Ireland operates its own licensing rules separately from Great Britain.",
+      "Speed limits are posted in miles per hour, not kilometres per hour.",
+      "Scotland's drink-drive limit is lower than the rest of the UK: 50 mg per 100 ml against 80 mg.",
+      "Traffic drives on the left, and most hire cars are manual unless an automatic is booked specifically.",
+      "The UK is party to the 1926 Paris, 1949 Geneva and 1968 Vienna Conventions."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit to drive in the UK?",
+        "a": "Generally no. GOV.UK guidance allows a visitor holding a full, valid licence from any country to drive small vehicles listed on that licence in Great Britain for up to 12 months from the date they last entered. The permit is not what grants that permission."
+      },
+      {
+        "q": "How long can I drive in the UK on a foreign licence?",
+        "a": "Up to 12 months from the date you last entered Great Britain, for the small vehicle categories shown on your licence. Longer stays and a move to GB residency bring separate licence-exchange rules into play."
+      },
+      {
+        "q": "Is a licence translation useful in the UK at all?",
+        "a": "It can be, but as a practical aid rather than a legal requirement. If your licence is not in the Latin alphabet, a hire desk or an officer may find a translation easier to read. That is a company or convenience matter, not a condition of driving."
+      },
+      {
+        "q": "Which side of the road does the UK drive on?",
+        "a": "The left. Speed limits are posted in miles per hour: 30 mph in built-up areas, 60 mph on single carriageways and 70 mph on dual carriageways and motorways, subject to posted signs."
+      },
+      {
+        "q": "Is the drink-drive limit the same across the UK?",
+        "a": "No. England, Wales and Northern Ireland apply 80 mg of alcohol per 100 ml of blood. Scotland applies a lower limit of 50 mg. Crossing the border changes the limit that applies to you."
+      },
+      {
+        "q": "Do UK licence holders need an IDP to drive abroad?",
+        "a": "For some destinations, yes. This is the more common UK-related IDP question, and the answer depends entirely on the destination and which road traffic convention it recognises."
+      }
+    ]
+  },
+  "greece": {
+    "licenceOriginNotes": "The dividing line in Greece is EU/EEA versus everything else. EU and EEA licences are recognised outright. A licence issued elsewhere — a US, Canadian, Australian or UK licence, for example — is where Greek guidance points to carrying an IDP with the original.",
+    "rentalNotes": "Island rental desks, particularly on Crete, Rhodes and the Cyclades, are the most common place a non-EU visitor is asked for an IDP. Quad and ATV hire is widespread in tourist areas and is subject to the same licence-category rules as a car — your licence must actually cover the vehicle.",
+    "roadsideCheckNotes": "Greek traffic police conduct roadside document checks in tourist regions during summer. Present the original licence; the IDP supports it. Note the tiered alcohol limit — new drivers, motorcyclists and professional drivers face a stricter 0.02 threshold than the general 0.05.",
+    "countrySpecificNotes": [
+      "Greece is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "The alcohol limit is tiered: 0.05 g/dl generally, but 0.02 g/dl for drivers with under two years' experience, motorcyclists and professional drivers.",
+      "Quad and ATV hire is common in island resorts and requires the matching licence category — a car licence does not automatically cover it.",
+      "Many island roads are unsurfaced and outside the scope of standard rental insurance."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Greece?",
+        "a": "If your licence was issued outside the EU or EEA, yes — Greek guidance points to carrying an IDP alongside the original licence. EU and EEA licence holders drive under mutual recognition rules and do not need one."
+      },
+      {
+        "q": "Can I drive in Greece with a US licence?",
+        "a": "A US licence sits outside the EU/EEA framework, so an IDP carried with the original licence is the route described. Rental desks on the islands ask for it routinely."
+      },
+      {
+        "q": "Do I need a special licence to rent a quad bike in Greece?",
+        "a": "Your national licence must cover the vehicle category. A standard car licence does not automatically permit a quad or ATV, and hiring one without the correct category affects both enforcement and insurance."
+      },
+      {
+        "q": "What is the drink-drive limit in Greece?",
+        "a": "0.05 g/dl for most drivers, dropping to 0.02 g/dl for drivers with under two years' experience, motorcyclists and professional drivers."
+      }
+    ]
+  },
+  "portugal": {
+    "licenceOriginNotes": "Portugal follows the EU pattern: EU and EEA licences are recognised, and licences from elsewhere are where an IDP or an official Portuguese translation becomes relevant. Post-Brexit UK licence holders should check current guidance rather than assume the pre-2021 position still applies.",
+    "rentalNotes": "Portuguese rental firms commonly ask non-EU visitors for a translation at collection, particularly in the Algarve and on Madeira. Electronic tolls are the bigger practical issue — most motorways use the Via Verde system and rental companies charge an administration fee per toll passage.",
+    "roadsideCheckNotes": "Speed enforcement is largely automated. The alcohol limit is tiered: 0.05 g/l generally, but 0.02 g/l for anyone licensed less than three years and for professional drivers — a stricter window than most of Europe applies.",
+    "countrySpecificNotes": [
+      "Portugal is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "The 0.02 g/l limit applies for a full three years after licensing, longer than the equivalent rule in most EU states.",
+      "Most motorways use electronic tolling; rental vehicles need a transponder or the company bills tolls afterwards with a fee.",
+      "Madeira and the Azores have their own road conditions and steep gradients that affect vehicle choice."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Portugal?",
+        "a": "EU and EEA licence holders drive under mutual recognition rules. If your licence was issued outside that framework, Portuguese guidance points to an IDP or an official Portuguese translation carried with the original."
+      },
+      {
+        "q": "How do motorway tolls work for rental cars in Portugal?",
+        "a": "Most Portuguese motorways use electronic tolling rather than cash booths. Rental vehicles either carry a transponder or the company bills the tolls to you afterwards with an administration fee. Confirm which applies at collection."
+      },
+      {
+        "q": "What is the drink-drive limit in Portugal?",
+        "a": "0.05 g/l for most drivers. Drivers licensed for less than three years and professional drivers face a stricter 0.02 g/l limit."
+      }
+    ]
+  },
+  "iceland": {
+    "licenceOriginNotes": "Iceland's rule turns on the alphabet rather than the country. A full valid licence written in the Latin alphabet is generally accepted from visitors. If your licence uses a different script, that is where a translation or IDP does real work.",
+    "rentalNotes": "The rental questions that matter in Iceland are rarely about the licence. Sand and ash protection, gravel protection and river-crossing exclusions are what determine whether you are covered. F-roads — the interior highland routes — legally require a 4x4 and are excluded from most standard rental policies entirely.",
+    "roadsideCheckNotes": "Iceland has no motorway network in the continental sense; the Ring Road is largely single carriageway at 90 km/h. Speed limits drop to 80 km/h on gravel, and single-lane bridges and blind summits are common. Off-road driving outside marked tracks is a criminal offence with substantial fines.",
+    "countrySpecificNotes": [
+      "Iceland is party to the 1949 Geneva Convention.",
+      "There are no motorways as such — 90 km/h on paved rural roads, 80 km/h on gravel.",
+      "F-roads in the highlands legally require a four-wheel-drive vehicle and are seasonally closed.",
+      "Driving off marked roads or tracks is a criminal offence, not a rental-policy matter.",
+      "Standard rental insurance typically excludes sand and ash damage, gravel damage and river crossings."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Iceland?",
+        "a": "Generally not, if your licence is full, valid and written in the Latin alphabet. A licence in a different script is where a translation or IDP becomes useful."
+      },
+      {
+        "q": "Can I drive an F-road in Iceland with a normal rental car?",
+        "a": "No. F-roads legally require a four-wheel-drive vehicle, are closed outside the summer season, and are excluded from most standard rental insurance policies. River crossings are excluded even with a 4x4 on many policies."
+      },
+      {
+        "q": "What are the speed limits in Iceland?",
+        "a": "50 km/h in built-up areas, 80 km/h on gravel roads and 90 km/h on paved rural roads. Iceland has no motorway network in the continental European sense."
+      },
+      {
+        "q": "Is it illegal to drive off-road in Iceland?",
+        "a": "Yes. Driving outside marked roads and tracks is a criminal offence carrying substantial fines, not simply a breach of your rental agreement."
+      }
+    ]
+  },
+  "ireland": {
+    "licenceOriginNotes": "Ireland uses a visitor window rather than a permit requirement. A full valid licence from your home country generally covers you for up to 12 months. The IDP is not what grants that — its practical use is where your licence is not in English or Irish and someone needs to read it.",
+    "rentalNotes": "Irish rental firms apply their own age limits and frequently exclude certain vehicle classes for younger drivers. Damage excesses tend to be high, and many roads outside the motorway network are narrow with stone walls or hedgerows close to the carriageway — check what the collision waiver actually covers.",
+    "roadsideCheckNotes": "Ireland drives on the left, which is the single most common source of difficulty for visitors arriving from mainland Europe or the Americas. The alcohol limit is tiered at 50 mg per 100 ml for most drivers and 20 mg for learner, novice and professional drivers. Speed limits are posted in km/h, unlike neighbouring Northern Ireland which uses mph.",
+    "countrySpecificNotes": [
+      "Ireland is party to the 1949 Geneva Convention.",
+      "Visitors can generally drive on a full valid home-country licence for up to 12 months.",
+      "Ireland drives on the left and posts speed limits in km/h — Northern Ireland, immediately across the border, drives on the left but posts limits in mph.",
+      "Learner, novice and professional drivers face a 20 mg alcohol limit against 50 mg for everyone else.",
+      "Many rural roads are single-track with limited passing places."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Ireland?",
+        "a": "Generally no. Visitors can usually drive on a full valid licence from their home country for up to 12 months. An IDP is most useful where your licence is not written in English or Irish."
+      },
+      {
+        "q": "Which side of the road does Ireland drive on?",
+        "a": "The left. Speed limits are posted in kilometres per hour, unlike Northern Ireland across the border which also drives on the left but posts limits in miles per hour."
+      },
+      {
+        "q": "How long can I drive in Ireland on a foreign licence?",
+        "a": "Generally up to 12 months on a full valid licence from your home country. Becoming resident brings separate exchange or testing requirements into play."
+      },
+      {
+        "q": "What is the drink-drive limit in Ireland?",
+        "a": "50 mg per 100 ml of blood for most drivers, reduced to 20 mg for learner, novice and professional drivers."
+      }
+    ]
+  },
+  "croatia": {
+    "licenceOriginNotes": "Croatia joined the EU in 2013 and Schengen in 2023, so the EU/non-EU split now governs. An EU or EEA licence is recognised outright. A licence from outside that framework is where an IDP carried with the original becomes the route Croatian guidance describes.",
+    "rentalNotes": "Coastal rental desks in Split, Dubrovnik and Zadar handle high summer volumes and check documents closely. If you plan to cross into Bosnia and Herzegovina or Montenegro — common on a Dalmatian coast trip — tell the rental company at booking, because cross-border permission and a green card are separate from your licence.",
+    "roadsideCheckNotes": "Croatia applies zero tolerance for alcohol to drivers under 24, professional drivers and anyone driving over 3.5 tonnes, against 0.05 per cent for everyone else. Headlights are required during daylight in the winter months. The A1 to Split is tolled and takes cash or card at barriers.",
+    "countrySpecificNotes": [
+      "Croatia is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "Zero alcohol tolerance applies to drivers under 24, not just to novices.",
+      "The coastal route crosses the Neum corridor through Bosnia and Herzegovina — check your rental agreement permits it.",
+      "Daytime running lights are mandatory during winter months.",
+      "Motorways are tolled at barriers rather than by vignette."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Croatia?",
+        "a": "EU and EEA licence holders drive under mutual recognition and do not. If your licence was issued outside that framework, Croatian guidance points to carrying an IDP with the original licence."
+      },
+      {
+        "q": "Can I drive from Croatia into Bosnia or Montenegro with a rental car?",
+        "a": "Only if your rental agreement permits it. Cross-border travel needs the company's authorisation and usually a green card insurance certificate — the Dalmatian coast road passes through the Neum corridor in Bosnia and Herzegovina."
+      },
+      {
+        "q": "What is the drink-drive limit in Croatia?",
+        "a": "0.05 per cent for most drivers, but zero tolerance for anyone under 24, professional drivers and vehicles over 3.5 tonnes."
+      }
+    ]
+  },
+  "switzerland": {
+    "licenceOriginNotes": "Switzerland is neither in the EU nor the EEA, and it runs its own visitor rule: a valid foreign licence generally covers you for up to 12 months. The permit question turns on script rather than nationality — Swiss officers need to read the licence, so a non-Latin-script licence is where a translation does real work.",
+    "rentalNotes": "The motorway vignette is the thing most visitors get wrong. Swiss motorways require an annual sticker displayed on the windscreen, and rental cars registered in Switzerland normally carry one — but a car picked up in Germany, France or Italy and driven into Switzerland will not. Check before you cross.",
+    "roadsideCheckNotes": "Swiss speed limits are lower than in neighbouring Germany, France and Italy, and enforcement is strict with penalties scaled to income for serious offences. New drivers, instructors and professional drivers face a 0.01 per cent alcohol limit against 0.05 for everyone else.",
+    "countrySpecificNotes": [
+      "Switzerland is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "An annual motorway vignette must be displayed on the windscreen — it is not a per-journey toll.",
+      "Motorway limits are 120 km/h, lower than Germany, France and Italy on either side.",
+      "New, instructor and professional drivers face a 0.01 per cent alcohol limit.",
+      "Many alpine passes close in winter and some require snow chains when signed."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Switzerland?",
+        "a": "Generally no for a stay under 12 months if your licence is valid and readable. A translation or IDP becomes relevant where the licence is not in a Latin script."
+      },
+      {
+        "q": "Do I need a vignette to drive on Swiss motorways?",
+        "a": "Yes. Swiss motorways require an annual vignette displayed on the windscreen. A car hired in a neighbouring country will usually not have one, and driving without it carries a fine plus the cost of the vignette."
+      },
+      {
+        "q": "What is the motorway speed limit in Switzerland?",
+        "a": "120 km/h, with 80 km/h on rural roads and 50 km/h in built-up areas — lower than the neighbouring countries on every category."
+      }
+    ]
+  },
+  "new-zealand": {
+    "licenceOriginNotes": "New Zealand's rule is about language, not nationality. NZTA requires an overseas licence to be in English or accompanied by an accurate English translation, and an IDP is one accepted form of that translation. The 12-month limit applies regardless of which language your licence is in.",
+    "rentalNotes": "Rental companies enforce the English-language rule at the desk and will decline a vehicle without an acceptable translation. Insurance excesses on campervans and 4WDs are high, and many policies exclude unsealed roads — which rules out a number of routes people plan to drive.",
+    "roadsideCheckNotes": "New Zealand drives on the left and has relatively little motorway outside Auckland and Wellington. One-lane bridges are common on the South Island and carry priority signage that visitors routinely misread. Drivers under 20 face a zero alcohol limit.",
+    "countrySpecificNotes": [
+      "New Zealand is party to the 1949 Geneva Convention.",
+      "An overseas licence must be in English or carry an accurate English translation — this is a stated NZTA requirement, not a rental preference.",
+      "Visitors may drive for a maximum of 12 months on an overseas licence.",
+      "Traffic drives on the left, and one-lane bridges with priority signage are common outside the main centres.",
+      "Drivers under 20 face a zero alcohol limit; drivers 20 and over are limited to 250 micrograms per litre of breath."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in New Zealand?",
+        "a": "You need your overseas licence to be in English or accompanied by an accurate English translation. An IDP is one accepted form of that translation. If your licence is already in English, you do not need one."
+      },
+      {
+        "q": "How long can I drive in New Zealand on an overseas licence?",
+        "a": "Up to 12 months. After that you need a New Zealand licence, regardless of what translation you carry."
+      },
+      {
+        "q": "Which side of the road does New Zealand drive on?",
+        "a": "The left. Open-road limits are generally 100 km/h and urban limits 50 km/h, with one-lane bridges common on the South Island."
+      }
+    ]
+  },
+  "costa-rica": {
+    "licenceOriginNotes": "Costa Rica ties your driving entitlement to your immigration status rather than to a permit. A valid foreign licence generally covers you for the length of your authorised tourist stay, which is why your passport entry stamp matters as much as the licence itself. Once that period lapses, so does the basis for driving.",
+    "rentalNotes": "Mandatory local liability insurance is a legal requirement separate from any collision waiver, and it cannot be declined in favour of a credit-card policy. Many destinations reachable on a map require a high-clearance or four-wheel-drive vehicle in practice, and standard policies commonly exclude river crossings and unpaved routes.",
+    "roadsideCheckNotes": "Traffic police conduct roadside checks and will ask for the passport alongside the licence, because the entry stamp is what evidences your authorised stay. Road conditions vary sharply between the Interamericana and rural routes, and unlit roads with pedestrians are common after dark.",
+    "countrySpecificNotes": [
+      "Costa Rica is party to the 1949 Geneva Convention.",
+      "Your driving entitlement runs with your authorised tourist stay, so carry the passport with the entry stamp alongside the licence.",
+      "Mandatory local liability insurance is a legal requirement and cannot be replaced by a credit-card collision policy.",
+      "Many rural and coastal routes require high clearance or four-wheel drive in practice.",
+      "River crossings and unpaved roads are commonly excluded from standard rental insurance."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Costa Rica?",
+        "a": "A valid foreign licence generally covers you for the length of your authorised tourist stay. Carry your passport with the entry stamp, because that is what evidences the period you are permitted to drive."
+      },
+      {
+        "q": "Do I need special insurance to drive in Costa Rica?",
+        "a": "Yes. Mandatory local liability insurance is a legal requirement separate from any collision damage waiver, and it cannot be declined in favour of a credit-card policy."
+      },
+      {
+        "q": "Do I need a 4x4 in Costa Rica?",
+        "a": "For many rural and coastal destinations, in practice yes. Standard rental policies commonly exclude river crossings and unpaved roads, so check what your agreement actually covers before choosing a route."
+      }
+    ]
+  },
+  "turkey": {
+    "licenceOriginNotes": "Turkey applies a six-month visitor window, which is shorter than the 12 months common elsewhere and catches out people on longer trips. The permit question itself turns on script: a licence in a non-Latin alphabet is where an IDP or an official Turkish translation is what makes it readable at a check.",
+    "rentalNotes": "Rental providers apply their own documentation and deposit rules, and cross-border travel is generally prohibited under standard agreements. If you are driving between the European and Asian sides of Istanbul, the bridge crossings are electronically tolled through the HGS system and the rental company bills them afterwards.",
+    "roadsideCheckNotes": "Roadside checks are routine on intercity routes. Alcohol tolerance is zero when towing a trailer or caravan and for commercial vehicles, against 0.05 per cent for private cars. Motorway and bridge tolls are electronic — there are no cash booths on the main network.",
+    "countrySpecificNotes": [
+      "Turkey is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "The visitor window is six months, shorter than the 12 months applied by most European countries.",
+      "Motorway and bridge tolls use the electronic HGS system; there are no cash lanes on the main network.",
+      "Zero alcohol tolerance applies when towing a trailer or caravan.",
+      "Standard rental agreements generally prohibit taking the vehicle across a border."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Turkey?",
+        "a": "Visitors may generally drive on a valid foreign licence for up to six months. Where the licence is not in a Latin script, an IDP or official Turkish translation is what makes it readable at a roadside check."
+      },
+      {
+        "q": "How long can I drive in Turkey on a foreign licence?",
+        "a": "Up to six months. That is shorter than the 12-month window most European countries apply, and staying longer moves you into Turkish licensing requirements."
+      },
+      {
+        "q": "How do tolls work for rental cars in Turkey?",
+        "a": "Motorways and the Istanbul bridges use the electronic HGS system rather than cash booths. Rental vehicles carry a transponder and the company bills the charges afterwards, usually with an administration fee."
+      }
+    ]
+  },
+  "netherlands": {
+    "licenceOriginNotes": "The Netherlands follows the standard EU pattern, but the practical issue for most visitors is not the licence at all — it is the road layout. An EU or EEA licence is recognised outright; a licence from elsewhere is where an IDP or an official Dutch translation becomes relevant.",
+    "rentalNotes": "Dutch rental companies apply their own minimum ages and often exclude younger drivers from larger vehicle classes. Parking in Amsterdam, Utrecht and Rotterdam is expensive and heavily enforced, and several city centres now operate low-emission zones that older hire vehicles cannot enter.",
+    "roadsideCheckNotes": "The Netherlands has the densest cycling infrastructure in Europe and cyclists have priority in situations visiting drivers routinely misjudge. The alcohol limit is 0.02 per cent for anyone licensed less than five years, against 0.05 for everyone else. Motorway limits vary by time of day on some stretches.",
+    "countrySpecificNotes": [
+      "The Netherlands is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "Cyclists have right of way in many situations where visiting drivers assume otherwise, including at unmarked junctions.",
+      "The 0.02 per cent alcohol limit applies for a full five years after licensing.",
+      "Several motorway sections carry time-of-day speed limits rather than a single posted figure.",
+      "Major city centres operate low-emission zones with camera enforcement."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in the Netherlands?",
+        "a": "EU and EEA licence holders drive under mutual recognition rules. If your licence was issued outside that framework, Dutch guidance points to an IDP or an official Dutch translation carried with the original."
+      },
+      {
+        "q": "What should visiting drivers know about cyclists in the Netherlands?",
+        "a": "Cyclists have priority in many situations where visiting drivers assume they do not, including at unmarked junctions and when you are turning across a cycle lane. This is the most common cause of incidents involving foreign drivers."
+      },
+      {
+        "q": "What is the drink-drive limit in the Netherlands?",
+        "a": "0.05 per cent for most drivers, but 0.02 per cent for anyone licensed less than five years — a longer novice period than most European countries apply."
+      }
+    ]
+  },
+  "austria": {
+    "licenceOriginNotes": "Austria requires more than most of its neighbours from non-EU licence holders: guidance points to an IDP or a certified German translation, not simply any translation. If you are driving an Alpine route between Germany, Austria and Italy, note that all three countries apply different rules to the same licence.",
+    "rentalNotes": "Winter equipment is the thing that catches visitors. Between 1 November and 15 April, vehicles must have winter tyres in wintry conditions — this is a legal requirement, not a rental upsell, and driving without them in snow can invalidate insurance and attract a fine.",
+    "roadsideCheckNotes": "Austrian motorways require a vignette displayed on the windscreen, and some Alpine tunnels and passes carry separate tolls on top. The alcohol limit is 0.01 per cent for drivers in their first three years, professional drivers and moped riders, against 0.05 for everyone else.",
+    "countrySpecificNotes": [
+      "Austria is party to the 1968 Vienna Convention.",
+      "A motorway vignette must be displayed on the windscreen; some Alpine tunnels and passes are tolled separately on top of it.",
+      "Winter tyres are legally required in wintry conditions between 1 November and 15 April.",
+      "New drivers face a 0.01 per cent alcohol limit for their first three years.",
+      "Non-EU licence holders need an IDP or a certified German translation, which is stricter than several neighbouring states."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Austria?",
+        "a": "If your licence was issued outside the EU or EEA, yes — Austrian guidance points to an IDP or a certified German translation carried with the original licence. EU and EEA licence holders drive under mutual recognition."
+      },
+      {
+        "q": "Do I need a vignette to drive in Austria?",
+        "a": "Yes, for motorways and expressways. It must be displayed on the windscreen. Some Alpine tunnels and passes carry separate tolls that the vignette does not cover."
+      },
+      {
+        "q": "Are winter tyres compulsory in Austria?",
+        "a": "In wintry conditions between 1 November and 15 April, yes. This is a legal requirement rather than a rental option, and driving without them in snow can attract a fine and affect insurance cover."
+      }
+    ]
+  },
+  "canada": {
+    "licenceOriginNotes": "Canada has no single national answer, in the same way the United States does not. Each province and territory sets its own rule for how long a visitor may drive on a foreign licence — commonly around 90 days, but the exact window differs. Language matters too: a licence already in English or French generally needs no translation.",
+    "rentalNotes": "Insurance minimums are provincial, and some provinces run public auto insurance systems that work differently from private cover elsewhere. Cross-border trips into the United States are usually permitted but must be declared. Winter tyre rules differ by province — Quebec mandates them seasonally.",
+    "roadsideCheckNotes": "The federal criminal threshold is 0.08 per cent, but provinces layer administrative penalties on top from 0.05 per cent — licence suspension at 0.05 is common even though it is not a criminal offence. Most provinces apply zero tolerance to novice and young drivers regardless.",
+    "countrySpecificNotes": [
+      "Canada is party to the 1949 Geneva Convention.",
+      "Rules for visiting drivers are set provincially, not federally — the permitted period differs by province.",
+      "The federal criminal alcohol threshold is 0.08 per cent, but provincial administrative penalties commonly begin at 0.05 per cent.",
+      "Quebec mandates winter tyres seasonally; other provinces do not.",
+      "A licence in English or French generally needs no translation."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Canada?",
+        "a": "It depends on the province and on how long you are staying. Visitors may generally drive on a valid foreign licence for a limited period, commonly around 90 days. A licence already in English or French generally needs no translation."
+      },
+      {
+        "q": "Is the drink-drive limit in Canada 0.08?",
+        "a": "0.08 per cent is the federal criminal threshold, but that is not the whole picture. Provinces impose administrative penalties including licence suspension from 0.05 per cent, and most apply zero tolerance to novice and young drivers."
+      },
+      {
+        "q": "Do I need winter tyres in Canada?",
+        "a": "Quebec mandates them seasonally. Other provinces do not require them by law, though conditions frequently make them necessary in practice."
+      }
+    ]
+  },
+  "india": {
+    "licenceOriginNotes": "India recognises IDPs issued under the 1949 Geneva Convention, and foreign visitors are expected to carry one alongside the original licence. The question runs both ways here: Indian residents seeking an IDP for travel abroad apply through their local Regional Transport Office rather than through any private service.",
+    "rentalNotes": "Self-drive rental is far less common in India than a car with a driver, and many visitors find the latter the more practical option. Where you do self-drive, the vehicle must carry a valid pollution-under-control certificate alongside registration and insurance — a document check that has no European equivalent.",
+    "roadsideCheckNotes": "India applies a 30 mg per 100 ml alcohol limit, one of the strictest non-zero limits anywhere and well below the 50 mg common across Europe. Traffic drives on the left. Document checks at state borders and city entry points are routine, and the vehicle's paperwork is checked as closely as the driver's.",
+    "countrySpecificNotes": [
+      "India recognises the 1949 Geneva Convention IDP.",
+      "The alcohol limit is 30 mg per 100 ml — substantially stricter than the 50 mg common in Europe.",
+      "Traffic drives on the left.",
+      "Vehicles must carry a valid pollution-under-control certificate in addition to registration and insurance.",
+      "Indian residents apply for an IDP through their local Regional Transport Office, not through a private service."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in India?",
+        "a": "Yes. Foreign visitors are expected to carry an IDP issued under the 1949 Geneva Convention alongside their original national licence."
+      },
+      {
+        "q": "How do Indian residents get an International Driving Permit?",
+        "a": "Through their local Regional Transport Office under the Ministry of Road Transport and Highways. That is the official route, and no private service substitutes for it."
+      },
+      {
+        "q": "What is the drink-drive limit in India?",
+        "a": "30 mg of alcohol per 100 ml of blood — one of the strictest non-zero limits in the world, and well below the 50 mg limit common across Europe."
+      }
+    ]
+  },
+  "morocco": {
+    "licenceOriginNotes": "Morocco's administration operates in French and Arabic, so the practical trigger is readability rather than nationality. A licence issued in French is generally readable as it stands. A licence in a non-Latin script, or otherwise not readable to Moroccan officials, is where an International Driving Permit does real work.",
+    "rentalNotes": "Rental companies require the vehicle's carte grise and insurance certificate to travel with the car, and you should confirm both are present at collection. Cross-border travel into Algeria is not possible and travel into Mauritania requires specific authorisation that standard rental agreements do not cover.",
+    "roadsideCheckNotes": "Morocco applies zero tolerance for alcohol — a complete prohibition rather than a graduated limit, which is stricter than anywhere in Europe. Gendarmerie checkpoints on intercity roads are routine and both driver and vehicle documents are inspected. Urban limits are 60 km/h rather than the 50 km/h common in Europe.",
+    "countrySpecificNotes": [
+      "Morocco is party to both the 1949 Geneva and 1968 Vienna Conventions.",
+      "Zero alcohol tolerance applies — a complete prohibition rather than a graduated limit.",
+      "Built-up area limits are 60 km/h, higher than the 50 km/h standard across most of Europe.",
+      "The vehicle's carte grise and insurance certificate must travel with the car.",
+      "Gendarmerie checkpoints on intercity routes are routine and check vehicle documents as well as the licence."
+    ],
+    "faq": [
+      {
+        "q": "Do you need an International Driving Permit in Morocco?",
+        "a": "If your licence is issued in French it is generally readable as it stands. A licence in a non-Latin script, or otherwise not readable in French or Arabic, is where an IDP carried with the original becomes relevant."
+      },
+      {
+        "q": "What is the drink-drive limit in Morocco?",
+        "a": "Zero. Morocco applies a complete prohibition on alcohol for drivers rather than a graduated limit, which is stricter than any European standard."
+      },
+      {
+        "q": "What documents must be in the car in Morocco?",
+        "a": "The carte grise (vehicle registration) and the insurance certificate must travel with the vehicle. Gendarmerie checkpoints inspect vehicle documents as closely as the driver's licence."
+      }
+    ]
+  }
+}
