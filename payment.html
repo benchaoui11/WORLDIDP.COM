@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Delivery & Payment | WorldIDP — Drive the World</title>
   <meta name="description" content="Enter your delivery details and complete your International Driving Permit order securely." />
-  <meta name="robots" content="noindex,follow" />
+  <meta name="robots" content="noindex, follow" />
   <link rel="icon" href="IMAGES/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="IMAGES/favicon-32.png" />
   <link rel="apple-touch-icon" href="IMAGES/apple-touch-icon.png" />
@@ -43,6 +43,7 @@
     <nav class="primary-nav" aria-label="Main navigation">
       <a href="countries.html">Countries</a>
       <a href="what-is-idp.html">What is IDP?</a>
+      <a href="how-to-apply.html">How to Apply</a>
       <a href="pricing.html">Pricing</a>
       <a href="contact-us.html">Contact Us</a>
       <a href="track-order.html">My Order</a>
@@ -61,7 +62,7 @@
     <div class="flow-head">
       <span class="flow-kicker"><span class="pulse" aria-hidden="true"></span>Application · Delivery &amp; payment</span>
       <h1>Where should we <span>send your permit?</span></h1>
-      <p>Enter your delivery address and pick a shipping speed. You'll complete payment securely on the next screen — we never store your card.</p>
+      <p>Enter your delivery address and pick a shipping speed. After review and approval, we'll email secure payment instructions to complete your order.</p>
 
       <div class="progress-rail" role="list" aria-label="Application progress">
         <div class="pr-step done" role="listitem">
@@ -153,7 +154,7 @@
             <span class="fs-num">3</span>
             <h2>Shipping speed</h2>
           </div>
-          <p class="fieldset-sub">Your digital copy is always delivered instantly — this is for the printed booklet.</p>
+          <p class="fieldset-sub">Your digital copy is delivered by email after approval — this is for the printed booklet.</p>
 
           <div class="ship-opts" role="group" aria-label="Shipping method">
             <div class="ship ship-free">
@@ -170,14 +171,14 @@
             <span class="fs-num">4</span>
             <h2>Speed up processing</h2>
           </div>
-          <p class="fieldset-sub">Optional — jump the queue and get your digital IDP issued in minutes.</p>
+          <p class="fieldset-sub">Optional — prioritize review for urgent digital delivery after approval.</p>
 
           <label class="express" data-express data-price="14">
             <input type="checkbox" name="express" />
             <span class="express-rec">Recommended</span>
             <span class="express-check" aria-hidden="true"></span>
             <span class="express-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg></span>
-            <span class="express-meta"><span class="vm-name">Fast Processing</span><span class="vm-sub">Digital IDP ready in ~8 minutes</span></span>
+            <span class="express-meta"><span class="vm-name">Fast Processing</span><span class="vm-sub">Priority review after approval</span></span>
             <span class="express-price"><span class="vp-now">+$14</span></span>
           </label>
         </section>
@@ -242,7 +243,7 @@
           <label class="terms" data-terms>
             <input type="checkbox" id="agree" />
             <span class="tk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
-            <p>I have read and accept the <a href="#" target="_blank" rel="noopener">Terms &amp; Conditions</a> and <a href="#" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+            <p>I have read and accept the <a href="terms-of-service.html" target="_blank" rel="noopener">Terms &amp; Conditions</a> and <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>.</p>
           </label>
 
           <button type="submit" class="pay-btn" id="pay-btn">
@@ -252,10 +253,10 @@
 
           <div class="trust-row">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
-            Secure encrypted payment
+            Secure encrypted application submission
           </div>
 
-          <div class="pay-strip" aria-label="Accepted payment methods">
+          <div class="pay-strip" aria-label="Supported secure payment methods after approval">
             <span class="pay-chip"><span class="pc-visa">VISA</span></span>
             <span class="pay-chip"><span class="pc-mc"><span class="a"></span><span class="b"></span></span></span>
             <span class="pay-chip"><span class="pc-amex">AMEX</span></span>
@@ -277,7 +278,7 @@
   <footer class="mini-footer">
     <div class="mf-brand"><img src="IMAGES/worldidp-international-driving-permit-logo.webp" alt="WorldIDP" title="WorldIDP international driving permit logo" width="1500" height="540" decoding="async" /><span>© 2026 WORLDIDP INTERNATIONAL LLC. All rights reserved.</span></div>
     <nav class="mf-links" aria-label="Legal">
-      <a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a><a href="#">Refund Policy</a><a href="contact-us.html">Contact us</a>
+      <a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a><a href="refund-return-policy.html">Refund Policy</a><a href="contact-us.html">Contact us</a>
     </nav>
   </footer>
 
@@ -291,6 +292,6 @@
 
   <script src="supabase-config.js" defer></script>
   <script src="payment.js" defer></script>
-  <script src="/analytics-beacon.js" defer></script>
+  <script src="analytics-beacon.js?v=20260722" defer></script>
 </body>
 </html>

@@ -4,6 +4,10 @@
    (country comes server-side from Vercel's own geo headers). */
 (function () {
   try {
+    if (location.protocol === 'file:' || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+      return;
+    }
+
     var ua = navigator.userAgent || '';
     var browser = /Edg\//.test(ua) ? 'Edge'
       : /Chrome\//.test(ua) ? 'Chrome'

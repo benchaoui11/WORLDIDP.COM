@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "validate:worldidp": "ruby tools/worldidp-validator/validate.rb"
+  }
+}

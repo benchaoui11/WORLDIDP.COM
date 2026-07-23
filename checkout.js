@@ -121,7 +121,7 @@
       label: "Digital Only",
       sumName: "Digital Only IDP",
       feats: [
-        "Instant PDF in your inbox — ready in minutes",
+        "Digital PDF by email after successful review and approval",
         "Accepted across multiple countries",
         "Perfect for last-minute travel",
         "Never lost — always on your phone"
@@ -134,9 +134,9 @@
       sumName: "Print + Digital IDP",
       feats: [
         "Printed booklet + pocket ID card shipped to you",
-        "Free digital copy included instantly",
-        "Globally recognised standard format",
-        "Trusted by police & rental desks worldwide"
+        "Digital copy included after successful review and approval",
+        "Standard translation format for international travel",
+        "Useful for many police and rental desk checks abroad"
       ]
     }
   };

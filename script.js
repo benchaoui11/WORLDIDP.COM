@@ -805,27 +805,27 @@ if (logoTrack) {
     return "";
   }
 
-  document.querySelectorAll(".country-card").forEach((card) => {
-    const name = resolveName(card.dataset.name || card.dataset.slug);
-    const href = name
-      ? "checkout.html?destination-country=" + encodeURIComponent(name)
-      : "checkout.html";
-    card.setAttribute("href", href);
-  });
+  const PILOT_COUNTRY_SLUGS = new Set([
+  "italy", "spain", "france", "germany", "united-states", "thailand", "japan",
+  "united-arab-emirates", "mexico", "australia"
+]);
 
-  // Countries page flag links: <a href="checkout.html"><span class="co-fl">🇫🇷</span>France</a>
-  document.querySelectorAll('a > .co-fl').forEach((flag) => {
-    const link = flag.closest("a");
-    if (!link) return;
-    // textContent includes the flag emoji; strip non-letters from the start.
-    const raw = (link.textContent || "").replace(/[^A-Za-z\u00C0-\u024F ]/g, " ").trim();
-    const name = resolveName(raw);
-    if (name) {
-      link.setAttribute("href", "checkout.html?destination-country=" + encodeURIComponent(name));
-    }
-  });
+const toCountryKnowledgeHref = (slug) =>
+  PILOT_COUNTRY_SLUGS.has(slug) ? `countries/${slug}/` : "countries.html";
 
-  // Footer "Start application" CTA and any remaining #apply anchors.
+document.querySelectorAll(".country-card").forEach((card) => {
+  const slug = card.dataset.slug;
+  if (!slug) return;
+  card.setAttribute("href", toCountryKnowledgeHref(slug));
+});
+
+document.querySelectorAll('a > .co-fl').forEach((flag) => {
+  const link = flag.closest("a");
+  const slug = link?.dataset?.slug;
+  if (!link || !slug) return;
+  link.setAttribute("href", toCountryKnowledgeHref(slug));
+});
+
   document.querySelectorAll('a[href="#apply"]').forEach((a) => {
     a.setAttribute("href", "checkout.html");
   });

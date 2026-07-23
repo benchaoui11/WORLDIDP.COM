@@ -23,7 +23,7 @@
       content="Apply for an International Driving Permit online with WorldIDP. Get a driving licence translation document for travel, car rental abroad, and driving internationally with your valid national licence."
     />
     <meta name="author" content="WorldIDP" />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="theme-color" content="#0758d8" />
     <link rel="canonical" href="https://worldidp.com/" />
 
@@ -63,14 +63,14 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://worldidp.com/#org",
+      "@id": "https://worldidp.com/#organization",
       "name": "WorldIDP",
       "url": "https://worldidp.com/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://worldidp.com/IMAGES/worldidp-international-driving-permit-social-preview.webp"
       },
-      "description": "Online International Driving Permit application service helping travelers prepare a driving licence translation document for driving abroad with a valid national licence.",
+      "description": "WorldIDP is an independent private service operated by WORLDIDP INTERNATIONAL LLC that prepares a multilingual translation-support document for a valid national driving licence. It is not a government agency and is not authorised to issue International Driving Permits. The document is carried alongside the original national driving licence and does not replace it.",
       "areaServed": [
         "United States",
         "United Kingdom",
@@ -85,7 +85,19 @@
           "Arabic",
           "French"
         ]
-      }
+      },
+      "disambiguatingDescription": "Private translation-support service for national driving licences. Not a government agency and not an authorised issuer of International Driving Permits.",
+      "knowsAbout": [
+        "International Driving Permit",
+        "1949 Geneva Convention on Road Traffic",
+        "1968 Vienna Convention on Road Traffic",
+        "Driving licence translation",
+        "Driving abroad requirements by country",
+        "Car rental documentation requirements"
+      ],
+      "sameAs": [
+        "https://www.trustpilot.com/review/worldidp.com"
+      ]
     },
     {
       "@type": "WebSite",
@@ -93,7 +105,7 @@
       "url": "https://worldidp.com/",
       "name": "WorldIDP",
       "publisher": {
-        "@id": "https://worldidp.com/#org"
+        "@id": "https://worldidp.com/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
@@ -102,7 +114,8 @@
           "urlTemplate": "https://worldidp.com/countries.html?destination-country={search_term_string}"
         },
         "query-input": "required name=search_term_string"
-      }
+      },
+      "inLanguage": "en"
     },
     {
       "@type": "WebPage",
@@ -118,7 +131,10 @@
       "mainEntity": {
         "@id": "https://worldidp.com/#service"
       },
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://worldidp.com/#organization"
+      }
     },
     {
       "@type": "Service",
@@ -176,7 +192,7 @@
         },
         {
           "@type": "Question",
-          "name": "IDP vs. “international driver’s license” — what’s the difference?",
+          "name": "IDP vs. “international driver's license” — what's the difference?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "They're the same document under different names. There is no standalone “international license” that lets you drive worldwide on its own — every legitimate version is an IDP that accompanies your valid national license. If a seller promises a permit that fully replaces your home license, treat that as a red flag, not a feature."
@@ -227,7 +243,7 @@
           "name": "How do I apply?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Three steps: confirm your eligibility, upload a photo of your license and a passport-style photo, and pay. That's it — most applications take under 8 minutes, with no tests, appointments, or embassy visits."
+            "text": "Choose a digital or printed option, enter your driver details, upload your valid driver's license, add a clear personal photo or selfie and signature, then complete payment. After successful review and approval, digital delivery is sent by email."
           }
         },
         {
@@ -251,7 +267,7 @@
           "name": "What do I need to apply?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A valid, in-date national driver's license, a clear passport-style photo, and a few personal details. No driving tests, no in-person appointments — you can finish the whole thing from your phone."
+            "text": "You need a valid driver's license, a clear personal photo or selfie, and your signature. The upload page may ask you to photograph both sides of the license so the details can be read clearly."
           }
         },
         {
@@ -330,7 +346,7 @@
           "@type": "HowToStep",
           "position": 2,
           "name": "Upload your document",
-          "text": "Upload a photo of your valid national driver's license and a passport-style photo.",
+          "text": "Upload your valid national driver's license image, add a clear personal photo or selfie, and provide your signature.",
           "url": "https://worldidp.com/#process-title"
         },
         {
@@ -344,11 +360,11 @@
     }
   ]
 }
-    </script>
+  </script>
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="/" aria-label="WorldIDP home">
+      <a class="brand" href="index.html" aria-label="WorldIDP home">
         <img src="IMAGES/worldidp-international-driving-permit-logo.webp" alt="WorldIDP - Drive the World" fetchpriority="high" width="250" height="90" title="WorldIDP international driving permit logo" decoding="async" />
       </a>
 
@@ -361,6 +377,7 @@
       <nav class="primary-nav" aria-label="Main navigation" data-nav>
         <a href="countries.html">Countries</a>
         <a href="what-is-idp.html">What is IDP?</a>
+        <a href="how-to-apply.html">How to Apply</a>
         <a href="pricing.html">Pricing</a>
         <a href="contact-us.html">Contact Us</a>
         <a href="track-order.html">My Order</a>
@@ -480,12 +497,12 @@
           <p class="fine-alert">Drive abroad with confidence</p>
           <h1 id="hero-title">Apply for an <span>International Driving Permit</span> Online</h1>
           <p class="lead">
-            WorldIDP is an independent, private service that prepares your <a href="what-is-idp.html">International Driving Permit (IDP)</a> — a multilingual translation of your national driving licence, also known as an International Driver’s License. Apply online in minutes; choose a digital IDP or add a printed copy, for travelers driving in <a href="countries.html">195+ countries</a>.
+            WorldIDP is an independent, private service that prepares your <a href="what-is-idp.html">International Driving Permit (IDP)</a> — a multilingual translation of your national driving licence, also known as an International Driver’s License. Apply online in minutes; choose a digital IDP or add a printed copy, and check destination guidance before you travel.
           </p>
           <p class="hero-disclosure">WorldIDP is an independent translation service and does not replace an official government-issued IDP or your original licence.</p>
 
           <ul class="benefit-grid" aria-label="WorldIDP benefits">
-            <li>Digital IDP in as little as 8 minutes</li>
+            <li>Digital delivery after review and approval</li>
             <li>Multilingual licence translation</li>
             <li>Digital &amp; printed options</li>
             <li>24/7 order assistance</li>
@@ -497,14 +514,7 @@
             <p>Trusted travel preparation</p>
             <strong>Helpful for rental desk document checks</strong>
           </div>
-          <div class="rental-logo-list" aria-label="Examples of car rental desk contexts where travellers may be asked for an IDP">
-            <span><img src="IMAGES/localiza-car-rental-logo.webp" alt="Localiza car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-            <span><img src="IMAGES/hertz-car-rental-logo.webp" alt="Hertz car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-            <span><img src="IMAGES/enterprise-car-rental-logo.webp" alt="Enterprise car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-            <span><img src="IMAGES/alamo-car-rental-logo.webp" alt="Alamo car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-            <span><img src="IMAGES/interrent-car-rental-logo.webp" alt="Interrent car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-            <span><img src="IMAGES/thrifty-car-rental-logo.webp" alt="Thrifty car rental" width="180" height="72" loading="lazy" decoding="async" /></span>
-          </div>
+          <p class="rental-logo-note">Some rental desks or local authorities may request licence translation support. Confirm requirements directly with the provider and destination authority before travel.</p>
         </div>
 
       </section>
@@ -819,7 +829,7 @@
             <div class="pc-top">
               <div class="pc-titles">
                 <h3 class="pc-name">Digital Only</h3>
-                <p class="pc-tag">Receive your IDP instantly — straight to your inbox.</p>
+                <p class="pc-tag">Receive your digital IDP by email after successful review and approval.</p>
               </div>
               <div class="pc-price">
                 <span class="pc-amount">$49</span>
@@ -835,7 +845,7 @@
             <ul class="pc-feats">
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                <span>Instant PDF in your inbox — ready in 5 minutes</span>
+                <span>Digital PDF by email in approximately 5 minutes after approval</span>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
@@ -852,7 +862,7 @@
             </ul>
 
             <a class="pc-cta" href="checkout.html?format=digital">
-              <span>Get my digital IDP instantly</span>
+              <span>Get my digital IDP</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
             <p class="pc-valid">Valid through <b data-valid>September 2027</b></p>
@@ -927,13 +937,13 @@
           <p class="section-kicker-blue">Loved by travelers</p>
           <h2 id="reviews-title">International Driving Permit reviews <span>from real trips</span></h2>
 
-          <div class="trust-badge" style="display:flex;justify-content:center;margin-top:4px;"><div style="display:inline-flex;align-items:center;gap:16px;background:#fff;padding:13px 24px;border-radius:14px;box-shadow:0 12px 30px -14px rgba(16,42,96,.18);border:1px solid #edf0f7;"><span style="display:inline-flex;align-items:center;gap:7px;"><svg width="27" height="27" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><path fill="#00b67a" d="M12 2l2.9 6.26 6.85.6-5.18 4.53 1.55 6.71L12 16.9l-6.12 3.8 1.55-6.71L2.25 8.86l6.85-.6z"/></svg><span style="font-size:20px;font-weight:700;letter-spacing:-.01em;color:#191c1f;font-family:Arial,Helvetica,system-ui,sans-serif;">Trustpilot</span></span><span style="width:1px;height:34px;background:#e6e9f0;display:inline-block;"></span><span style="display:flex;flex-direction:column;gap:6px;text-align:left;"><span style="display:flex;align-items:center;gap:9px;"><b style="color:#191c1f;font-size:15px;font-weight:700;">Excellent</b><span style="display:inline-flex;gap:1px;"><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><rect width="24" height="24" fill="#00b67a"/><path fill="#fff" d="M12 17.27l5.15 3.11-1.37-5.86 4.55-3.94-5.99-.51L12 3.5 9.66 10.07l-5.99.51 4.55 3.94-1.37 5.86z"/></svg><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><rect width="24" height="24" fill="#00b67a"/><path fill="#fff" d="M12 17.27l5.15 3.11-1.37-5.86 4.55-3.94-5.99-.51L12 3.5 9.66 10.07l-5.99.51 4.55 3.94-1.37 5.86z"/></svg><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><rect width="24" height="24" fill="#00b67a"/><path fill="#fff" d="M12 17.27l5.15 3.11-1.37-5.86 4.55-3.94-5.99-.51L12 3.5 9.66 10.07l-5.99.51 4.55 3.94-1.37 5.86z"/></svg><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><rect width="24" height="24" fill="#00b67a"/><path fill="#fff" d="M12 17.27l5.15 3.11-1.37-5.86 4.55-3.94-5.99-.51L12 3.5 9.66 10.07l-5.99.51 4.55 3.94-1.37 5.86z"/></svg><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true" style="display:block;"><rect width="24" height="24" fill="#00b67a"/><path fill="#fff" d="M12 17.27l5.15 3.11-1.37-5.86 4.55-3.94-5.99-.51L12 3.5 9.66 10.07l-5.99.51 4.55 3.94-1.37 5.86z"/></svg></span></span><span style="color:#6b7488;font-size:12.5px;">See our reviews on Trustpilot</span></span></div></div>
+          <p class="reviews-note">Customer testimonials are displayed without third-party review verification until official review links or a verified widget are supplied.</p>
         </div>
 
         <div class="reviews-marquee">
           <div class="rm-row">
             <div class="rm-track">
-            <a class="review-card" href="#" rel="noopener" aria-label="Read James Miller's review on Trustpilot">
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#4f86ff">JM</span>
                 <span class="rc-id">
@@ -946,10 +956,10 @@
               <p class="rc-text">Used it during my Phuket trip without confusion. The digital copy landed in my inbox within minutes.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Sophie Dubois's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#3168f3">SD</span>
                 <span class="rc-id">
@@ -962,10 +972,10 @@
               <p class="rc-text">Rented a car in Bali with less stress. The print and pocket card felt professional at pickup.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Liam O'Connor's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#3168f3;--g2:#7ec0ff">LO</span>
                 <span class="rc-id">
@@ -978,10 +988,10 @@
               <p class="rc-text">I was nervous about driving in Antalya — this made the document check feel clearer and faster.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Aisha Rahman's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#122a63;--g2:#2456e6">AR</span>
                 <span class="rc-id">
@@ -994,10 +1004,10 @@
               <p class="rc-text">Fast, clear, and easy to keep with my licence during my Dubai trip. Honestly worth every penny.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Carlos Mendes's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#7ec0ff">CM</span>
                 <span class="rc-id">
@@ -1010,10 +1020,10 @@
               <p class="rc-text">Got mine the day before my flight to Lisbon. A real lifesaver for a last-minute trip.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Emma Thompson's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#4f86ff">ET</span>
                 <span class="rc-id">
@@ -1026,10 +1036,10 @@
               <p class="rc-text">Drove around Hokkaido with zero issues. The translation was spot on.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read David Kim's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#3168f3">DK</span>
                 <span class="rc-id">
@@ -1042,10 +1052,10 @@
               <p class="rc-text">The travel desk in Athens could read my licence details easily. Super smooth process online.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Nadia Becker's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#122a63;--g2:#4f86ff">NB</span>
                 <span class="rc-id">
@@ -1058,10 +1068,10 @@
               <p class="rc-text">Simple application, quick delivery, and it worked perfectly in Cape Town.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Tom Wright's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#3168f3;--g2:#4f86ff">TW</span>
                 <span class="rc-id">
@@ -1074,10 +1084,10 @@
               <p class="rc-text">The pocket card was perfect for the travel desk in Tuscany. Highly recommend it.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Mariam Haddad's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#7ec0ff">MH</span>
                 <span class="rc-id">
@@ -1090,10 +1100,10 @@
               <p class="rc-text">Everything arrived before my trip to Nice and support answered me instantly.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read James Miller's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#4f86ff">JM</span>
                 <span class="rc-id">
@@ -1106,10 +1116,10 @@
               <p class="rc-text">Used it during my Phuket trip without confusion. The digital copy landed in my inbox within minutes.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Sophie Dubois's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#3168f3">SD</span>
                 <span class="rc-id">
@@ -1122,10 +1132,10 @@
               <p class="rc-text">Rented a car in Bali with less stress. The print and pocket card felt professional at pickup.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Liam O'Connor's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#3168f3;--g2:#7ec0ff">LO</span>
                 <span class="rc-id">
@@ -1138,10 +1148,10 @@
               <p class="rc-text">I was nervous about driving in Antalya — this made the document check feel clearer and faster.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Aisha Rahman's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#122a63;--g2:#2456e6">AR</span>
                 <span class="rc-id">
@@ -1154,10 +1164,10 @@
               <p class="rc-text">Fast, clear, and easy to keep with my licence during my Dubai trip. Honestly worth every penny.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Carlos Mendes's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#7ec0ff">CM</span>
                 <span class="rc-id">
@@ -1170,10 +1180,10 @@
               <p class="rc-text">Got mine the day before my flight to Lisbon. A real lifesaver for a last-minute trip.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Emma Thompson's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#4f86ff">ET</span>
                 <span class="rc-id">
@@ -1186,10 +1196,10 @@
               <p class="rc-text">Drove around Hokkaido with zero issues. The translation was spot on.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read David Kim's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#2456e6;--g2:#3168f3">DK</span>
                 <span class="rc-id">
@@ -1202,10 +1212,10 @@
               <p class="rc-text">The travel desk in Athens could read my licence details easily. Super smooth process online.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Nadia Becker's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#122a63;--g2:#4f86ff">NB</span>
                 <span class="rc-id">
@@ -1218,10 +1228,10 @@
               <p class="rc-text">Simple application, quick delivery, and it worked perfectly in Cape Town.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Tom Wright's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#3168f3;--g2:#4f86ff">TW</span>
                 <span class="rc-id">
@@ -1234,10 +1244,10 @@
               <p class="rc-text">The pocket card was perfect for the travel desk in Tuscany. Highly recommend it.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
-            <a class="review-card" href="#" rel="noopener" aria-label="Read Mariam Haddad's review on Trustpilot">
+            </article>
+            <article class="review-card" aria-label="Customer testimonial">
               <div class="rc-head">
                 <span class="rc-avatar" style="--g1:#1c3da0;--g2:#7ec0ff">MH</span>
                 <span class="rc-id">
@@ -1250,9 +1260,9 @@
               <p class="rc-text">Everything arrived before my trip to Nice and support answered me instantly.</p>
               <span class="rc-verified">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
-                Verified Trustpilot review
+                Customer testimonial
               </span>
-            </a>
+            </article>
             </div>
           </div>
           <span class="rm-fade rm-fade-l" aria-hidden="true"></span>
@@ -1275,9 +1285,9 @@
         </div>
 
         <div class="countries-stats" aria-hidden="true">
-          <div class="cstat"><b data-count="195">0</b><span>countries covered</span></div>
+          <div class="cstat"><b data-count="124">0</b><span>countries in the research dataset</span></div>
           <div class="cstat"><b>2</b><span>UN conventions</span></div>
-          <div class="cstat"><b>5<i>min</i></b><span>digital delivery</span></div>
+          <div class="cstat"><b>5<i>min</i></b><span>after approval</span></div>
         </div>
 
         <div class="countries-panel">
@@ -1300,319 +1310,319 @@
           <p class="countries-count" aria-live="polite"><b id="countryCount">12</b> destinations</p>
 
           <div class="countries-grid" id="countriesGrid">
-            <a class="country-card" href="checkout.html" data-slug="france" data-region="europe" data-name="france" data-keywords="paris nice lyon marseille bordeaux cannes" data-popular="true" aria-label="International Driving Permit for France">
+            <a class="country-card" href="countries/france/" data-slug="france" data-region="europe" data-name="france" data-keywords="paris nice lyon marseille bordeaux cannes" data-popular="true" aria-label="International Driving Permit for France">
               <span class="cc-flag" aria-hidden="true">🇫🇷</span>
               <span class="cc-body">
                 <span class="cc-name">France</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="spain" data-region="europe" data-name="spain" data-keywords="madrid barcelona mallorca ibiza seville malaga espana" data-popular="true" aria-label="International Driving Permit for Spain">
+            </article>
+            <a class="country-card" href="countries/spain/" data-slug="spain" data-region="europe" data-name="spain" data-keywords="madrid barcelona mallorca ibiza seville malaga espana" data-popular="true" aria-label="International Driving Permit for Spain">
               <span class="cc-flag" aria-hidden="true">🇪🇸</span>
               <span class="cc-body">
                 <span class="cc-name">Spain</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="united-states" data-region="americas" data-name="united states" data-keywords="usa us america new york california florida los angeles miami vegas" data-popular="true" aria-label="International Driving Permit for United States">
+            </article>
+            <a class="country-card" href="countries/united-states/" data-slug="united-states" data-region="americas" data-name="united states" data-keywords="usa us america new york california florida los angeles miami vegas" data-popular="true" aria-label="International Driving Permit for United States">
               <span class="cc-flag" aria-hidden="true">🇺🇸</span>
               <span class="cc-body">
                 <span class="cc-name">United States</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="thailand" data-region="asia" data-name="thailand" data-keywords="bangkok phuket chiang mai pattaya krabi thai" data-popular="true" aria-label="International Driving Permit for Thailand">
+            </article>
+            <a class="country-card" href="countries/thailand/" data-slug="thailand" data-region="asia" data-name="thailand" data-keywords="bangkok phuket chiang mai pattaya krabi thai" data-popular="true" aria-label="International Driving Permit for Thailand">
               <span class="cc-flag" aria-hidden="true">🇹🇭</span>
               <span class="cc-body">
                 <span class="cc-name">Thailand</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="turkey" data-region="middle-east" data-name="turkey" data-keywords="istanbul antalya cappadocia bodrum izmir turkiye" data-popular="true" aria-label="International Driving Permit for Turkey">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="turkey" data-region="middle-east" data-name="turkey" data-keywords="istanbul antalya cappadocia bodrum izmir turkiye" data-popular="true" aria-label="International Driving Permit for Turkey">
               <span class="cc-flag" aria-hidden="true">🇹🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Turkey</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="united-kingdom" data-region="europe" data-name="united kingdom" data-keywords="uk england london scotland wales britain manchester edinburgh" data-popular="true" aria-label="International Driving Permit for United Kingdom">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="united-kingdom" data-region="europe" data-name="united kingdom" data-keywords="uk england london scotland wales britain manchester edinburgh" data-popular="true" aria-label="International Driving Permit for United Kingdom">
               <span class="cc-flag" aria-hidden="true">🇬🇧</span>
               <span class="cc-body">
                 <span class="cc-name">United Kingdom</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="greece" data-region="europe" data-name="greece" data-keywords="athens santorini crete mykonos rhodes corfu hellas" data-popular="true" aria-label="International Driving Permit for Greece">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="greece" data-region="europe" data-name="greece" data-keywords="athens santorini crete mykonos rhodes corfu hellas" data-popular="true" aria-label="International Driving Permit for Greece">
               <span class="cc-flag" aria-hidden="true">🇬🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Greece</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="portugal" data-region="europe" data-name="portugal" data-keywords="lisbon porto algarve madeira faro" data-popular="true" aria-label="International Driving Permit for Portugal">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="portugal" data-region="europe" data-name="portugal" data-keywords="lisbon porto algarve madeira faro" data-popular="true" aria-label="International Driving Permit for Portugal">
               <span class="cc-flag" aria-hidden="true">🇵🇹</span>
               <span class="cc-body">
                 <span class="cc-name">Portugal</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="uae" data-region="middle-east" data-name="united arab emirates" data-keywords="uae dubai abu dhabi emirates sharjah united emirates" data-popular="true" aria-label="International Driving Permit for United Arab Emirates">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="uae" data-region="middle-east" data-name="united arab emirates" data-keywords="uae dubai abu dhabi emirates sharjah united emirates" data-popular="true" aria-label="International Driving Permit for United Arab Emirates">
               <span class="cc-flag" aria-hidden="true">🇦🇪</span>
               <span class="cc-body">
                 <span class="cc-name">United Arab Emirates</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="indonesia" data-region="asia" data-name="indonesia" data-keywords="bali jakarta ubud lombok seminyak canggu" data-popular="true" aria-label="International Driving Permit for Indonesia">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="indonesia" data-region="asia" data-name="indonesia" data-keywords="bali jakarta ubud lombok seminyak canggu" data-popular="true" aria-label="International Driving Permit for Indonesia">
               <span class="cc-flag" aria-hidden="true">🇮🇩</span>
               <span class="cc-body">
                 <span class="cc-name">Indonesia</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="malaysia" data-region="asia" data-name="malaysia" data-keywords="kuala lumpur kl penang langkawi malacca" data-popular="true" aria-label="International Driving Permit for Malaysia">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="malaysia" data-region="asia" data-name="malaysia" data-keywords="kuala lumpur kl penang langkawi malacca" data-popular="true" aria-label="International Driving Permit for Malaysia">
               <span class="cc-flag" aria-hidden="true">🇲🇾</span>
               <span class="cc-body">
                 <span class="cc-name">Malaysia</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="philippines" data-region="asia" data-name="philippines" data-keywords="manila cebu boracay palawan davao" data-popular="true" aria-label="International Driving Permit for Philippines">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="philippines" data-region="asia" data-name="philippines" data-keywords="manila cebu boracay palawan davao" data-popular="true" aria-label="International Driving Permit for Philippines">
               <span class="cc-flag" aria-hidden="true">🇵🇭</span>
               <span class="cc-body">
                 <span class="cc-name">Philippines</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="italy" data-region="europe" data-name="italy" data-keywords="rome milan venice florence tuscany naples italia" aria-label="International Driving Permit for Italy">
+            </article>
+            <a class="country-card" href="countries/italy/" data-slug="italy" data-region="europe" data-name="italy" data-keywords="rome milan venice florence tuscany naples italia" aria-label="International Driving Permit for Italy">
               <span class="cc-flag" aria-hidden="true">🇮🇹</span>
               <span class="cc-body">
                 <span class="cc-name">Italy</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="germany" data-region="europe" data-name="germany" data-keywords="berlin munich frankfurt hamburg cologne deutschland" aria-label="International Driving Permit for Germany">
+            </article>
+            <a class="country-card" href="countries/germany/" data-slug="germany" data-region="europe" data-name="germany" data-keywords="berlin munich frankfurt hamburg cologne deutschland" aria-label="International Driving Permit for Germany">
               <span class="cc-flag" aria-hidden="true">🇩🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Germany</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="netherlands" data-region="europe" data-name="netherlands" data-keywords="amsterdam rotterdam the hague holland utrecht" aria-label="International Driving Permit for Netherlands">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="netherlands" data-region="europe" data-name="netherlands" data-keywords="amsterdam rotterdam the hague holland utrecht" aria-label="International Driving Permit for Netherlands">
               <span class="cc-flag" aria-hidden="true">🇳🇱</span>
               <span class="cc-body">
                 <span class="cc-name">Netherlands</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="switzerland" data-region="europe" data-name="switzerland" data-keywords="zurich geneva swiss interlaken lucerne" aria-label="International Driving Permit for Switzerland">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="switzerland" data-region="europe" data-name="switzerland" data-keywords="zurich geneva swiss interlaken lucerne" aria-label="International Driving Permit for Switzerland">
               <span class="cc-flag" aria-hidden="true">🇨🇭</span>
               <span class="cc-body">
                 <span class="cc-name">Switzerland</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="austria" data-region="europe" data-name="austria" data-keywords="vienna salzburg innsbruck hallstatt" aria-label="International Driving Permit for Austria">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="austria" data-region="europe" data-name="austria" data-keywords="vienna salzburg innsbruck hallstatt" aria-label="International Driving Permit for Austria">
               <span class="cc-flag" aria-hidden="true">🇦🇹</span>
               <span class="cc-body">
                 <span class="cc-name">Austria</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="croatia" data-region="europe" data-name="croatia" data-keywords="dubrovnik split zagreb hvar zadar" aria-label="International Driving Permit for Croatia">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="croatia" data-region="europe" data-name="croatia" data-keywords="dubrovnik split zagreb hvar zadar" aria-label="International Driving Permit for Croatia">
               <span class="cc-flag" aria-hidden="true">🇭🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Croatia</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="czech-republic" data-region="europe" data-name="czech republic" data-keywords="prague czechia brno karlovy vary" aria-label="International Driving Permit for Czech Republic">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="czech-republic" data-region="europe" data-name="czech republic" data-keywords="prague czechia brno karlovy vary" aria-label="International Driving Permit for Czech Republic">
               <span class="cc-flag" aria-hidden="true">🇨🇿</span>
               <span class="cc-body">
                 <span class="cc-name">Czech Republic</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="ireland" data-region="europe" data-name="ireland" data-keywords="dublin cork galway eire" aria-label="International Driving Permit for Ireland">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="ireland" data-region="europe" data-name="ireland" data-keywords="dublin cork galway eire" aria-label="International Driving Permit for Ireland">
               <span class="cc-flag" aria-hidden="true">🇮🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Ireland</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="iceland" data-region="europe" data-name="iceland" data-keywords="reykjavik ring road vik akureyri" aria-label="International Driving Permit for Iceland">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="iceland" data-region="europe" data-name="iceland" data-keywords="reykjavik ring road vik akureyri" aria-label="International Driving Permit for Iceland">
               <span class="cc-flag" aria-hidden="true">🇮🇸</span>
               <span class="cc-body">
                 <span class="cc-name">Iceland</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="hungary" data-region="europe" data-name="hungary" data-keywords="budapest debrecen" aria-label="International Driving Permit for Hungary">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="hungary" data-region="europe" data-name="hungary" data-keywords="budapest debrecen" aria-label="International Driving Permit for Hungary">
               <span class="cc-flag" aria-hidden="true">🇭🇺</span>
               <span class="cc-body">
                 <span class="cc-name">Hungary</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="poland" data-region="europe" data-name="poland" data-keywords="warsaw krakow gdansk wroclaw" aria-label="International Driving Permit for Poland">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="poland" data-region="europe" data-name="poland" data-keywords="warsaw krakow gdansk wroclaw" aria-label="International Driving Permit for Poland">
               <span class="cc-flag" aria-hidden="true">🇵🇱</span>
               <span class="cc-body">
                 <span class="cc-name">Poland</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="norway" data-region="europe" data-name="norway" data-keywords="oslo bergen fjords tromso" aria-label="International Driving Permit for Norway">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="norway" data-region="europe" data-name="norway" data-keywords="oslo bergen fjords tromso" aria-label="International Driving Permit for Norway">
               <span class="cc-flag" aria-hidden="true">🇳🇴</span>
               <span class="cc-body">
                 <span class="cc-name">Norway</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="sweden" data-region="europe" data-name="sweden" data-keywords="stockholm gothenburg malmo" aria-label="International Driving Permit for Sweden">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="sweden" data-region="europe" data-name="sweden" data-keywords="stockholm gothenburg malmo" aria-label="International Driving Permit for Sweden">
               <span class="cc-flag" aria-hidden="true">🇸🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Sweden</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="denmark" data-region="europe" data-name="denmark" data-keywords="copenhagen aarhus" aria-label="International Driving Permit for Denmark">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="denmark" data-region="europe" data-name="denmark" data-keywords="copenhagen aarhus" aria-label="International Driving Permit for Denmark">
               <span class="cc-flag" aria-hidden="true">🇩🇰</span>
               <span class="cc-body">
                 <span class="cc-name">Denmark</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="belgium" data-region="europe" data-name="belgium" data-keywords="brussels bruges antwerp ghent" aria-label="International Driving Permit for Belgium">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="belgium" data-region="europe" data-name="belgium" data-keywords="brussels bruges antwerp ghent" aria-label="International Driving Permit for Belgium">
               <span class="cc-flag" aria-hidden="true">🇧🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Belgium</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="finland" data-region="europe" data-name="finland" data-keywords="helsinki lapland rovaniemi" aria-label="International Driving Permit for Finland">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="finland" data-region="europe" data-name="finland" data-keywords="helsinki lapland rovaniemi" aria-label="International Driving Permit for Finland">
               <span class="cc-flag" aria-hidden="true">🇫🇮</span>
               <span class="cc-body">
                 <span class="cc-name">Finland</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="japan" data-region="asia" data-name="japan" data-keywords="tokyo osaka kyoto hokkaido okinawa nippon" aria-label="International Driving Permit for Japan">
+            </article>
+            <a class="country-card" href="countries/japan/" data-slug="japan" data-region="asia" data-name="japan" data-keywords="tokyo osaka kyoto hokkaido okinawa nippon" aria-label="International Driving Permit for Japan">
               <span class="cc-flag" aria-hidden="true">🇯🇵</span>
               <span class="cc-body">
                 <span class="cc-name">Japan</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="vietnam" data-region="asia" data-name="vietnam" data-keywords="hanoi ho chi minh saigon da nang hoi an" aria-label="International Driving Permit for Vietnam">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="vietnam" data-region="asia" data-name="vietnam" data-keywords="hanoi ho chi minh saigon da nang hoi an" aria-label="International Driving Permit for Vietnam">
               <span class="cc-flag" aria-hidden="true">🇻🇳</span>
               <span class="cc-body">
                 <span class="cc-name">Vietnam</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="india" data-region="asia" data-name="india" data-keywords="delhi mumbai goa bangalore jaipur kerala" aria-label="International Driving Permit for India">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="india" data-region="asia" data-name="india" data-keywords="delhi mumbai goa bangalore jaipur kerala" aria-label="International Driving Permit for India">
               <span class="cc-flag" aria-hidden="true">🇮🇳</span>
               <span class="cc-body">
                 <span class="cc-name">India</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="singapore" data-region="asia" data-name="singapore" data-keywords="singapura sg" aria-label="International Driving Permit for Singapore">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="singapore" data-region="asia" data-name="singapore" data-keywords="singapura sg" aria-label="International Driving Permit for Singapore">
               <span class="cc-flag" aria-hidden="true">🇸🇬</span>
               <span class="cc-body">
                 <span class="cc-name">Singapore</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="south-korea" data-region="asia" data-name="south korea" data-keywords="seoul busan jeju korea incheon" aria-label="International Driving Permit for South Korea">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="south-korea" data-region="asia" data-name="south korea" data-keywords="seoul busan jeju korea incheon" aria-label="International Driving Permit for South Korea">
               <span class="cc-flag" aria-hidden="true">🇰🇷</span>
               <span class="cc-body">
                 <span class="cc-name">South Korea</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="china" data-region="asia" data-name="china" data-keywords="beijing shanghai guangzhou shenzhen xian" aria-label="International Driving Permit for China">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="china" data-region="asia" data-name="china" data-keywords="beijing shanghai guangzhou shenzhen xian" aria-label="International Driving Permit for China">
               <span class="cc-flag" aria-hidden="true">🇨🇳</span>
               <span class="cc-body">
                 <span class="cc-name">China</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="cambodia" data-region="asia" data-name="cambodia" data-keywords="siem reap angkor wat phnom penh" aria-label="International Driving Permit for Cambodia">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="cambodia" data-region="asia" data-name="cambodia" data-keywords="siem reap angkor wat phnom penh" aria-label="International Driving Permit for Cambodia">
               <span class="cc-flag" aria-hidden="true">🇰🇭</span>
               <span class="cc-body">
                 <span class="cc-name">Cambodia</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="sri-lanka" data-region="asia" data-name="sri lanka" data-keywords="colombo kandy galle ceylon" aria-label="International Driving Permit for Sri Lanka">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="sri-lanka" data-region="asia" data-name="sri lanka" data-keywords="colombo kandy galle ceylon" aria-label="International Driving Permit for Sri Lanka">
               <span class="cc-flag" aria-hidden="true">🇱🇰</span>
               <span class="cc-body">
                 <span class="cc-name">Sri Lanka</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="taiwan" data-region="asia" data-name="taiwan" data-keywords="taipei kaohsiung taichung" aria-label="International Driving Permit for Taiwan">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="taiwan" data-region="asia" data-name="taiwan" data-keywords="taipei kaohsiung taichung" aria-label="International Driving Permit for Taiwan">
               <span class="cc-flag" aria-hidden="true">🇹🇼</span>
               <span class="cc-body">
                 <span class="cc-name">Taiwan</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="nepal" data-region="asia" data-name="nepal" data-keywords="kathmandu pokhara everest himalaya" aria-label="International Driving Permit for Nepal">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="nepal" data-region="asia" data-name="nepal" data-keywords="kathmandu pokhara everest himalaya" aria-label="International Driving Permit for Nepal">
               <span class="cc-flag" aria-hidden="true">🇳🇵</span>
               <span class="cc-body">
                 <span class="cc-name">Nepal</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="saudi-arabia" data-region="middle-east" data-name="saudi arabia" data-keywords="riyadh jeddah ksa saudi mecca medina" aria-label="International Driving Permit for Saudi Arabia">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="saudi-arabia" data-region="middle-east" data-name="saudi arabia" data-keywords="riyadh jeddah ksa saudi mecca medina" aria-label="International Driving Permit for Saudi Arabia">
               <span class="cc-flag" aria-hidden="true">🇸🇦</span>
               <span class="cc-body">
                 <span class="cc-name">Saudi Arabia</span>
                 <span class="cc-sub">IDP requirements</span>
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a class="country-card" href="checkout.html" data-slug="qatar" data-region="middle-east" data-name="qatar" data-keywords="doha" aria-label="International Driving Permit for Qatar">
+            </article>
+            <a class="country-card" href="countries.html" data-slug="qatar" data-region="middle-east" data-name="qatar" data-keywords="doha" aria-label="International Driving Permit for Qatar">
               <span class="cc-flag" aria-hidden="true">🇶🇦</span>
               <span class="cc-body">
                 <span class="cc-name">Qatar</span>
@@ -1620,7 +1630,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="jordan" data-region="middle-east" data-name="jordan" data-keywords="amman petra aqaba wadi rum" aria-label="International Driving Permit for Jordan">
+            <a class="country-card" href="countries.html" data-slug="jordan" data-region="middle-east" data-name="jordan" data-keywords="amman petra aqaba wadi rum" aria-label="International Driving Permit for Jordan">
               <span class="cc-flag" aria-hidden="true">🇯🇴</span>
               <span class="cc-body">
                 <span class="cc-name">Jordan</span>
@@ -1628,7 +1638,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="oman" data-region="middle-east" data-name="oman" data-keywords="muscat salalah nizwa" aria-label="International Driving Permit for Oman">
+            <a class="country-card" href="countries.html" data-slug="oman" data-region="middle-east" data-name="oman" data-keywords="muscat salalah nizwa" aria-label="International Driving Permit for Oman">
               <span class="cc-flag" aria-hidden="true">🇴🇲</span>
               <span class="cc-body">
                 <span class="cc-name">Oman</span>
@@ -1636,7 +1646,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="bahrain" data-region="middle-east" data-name="bahrain" data-keywords="manama" aria-label="International Driving Permit for Bahrain">
+            <a class="country-card" href="countries.html" data-slug="bahrain" data-region="middle-east" data-name="bahrain" data-keywords="manama" aria-label="International Driving Permit for Bahrain">
               <span class="cc-flag" aria-hidden="true">🇧🇭</span>
               <span class="cc-body">
                 <span class="cc-name">Bahrain</span>
@@ -1644,7 +1654,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="egypt" data-region="africa" data-name="egypt" data-keywords="cairo hurghada luxor sharm el sheikh giza" aria-label="International Driving Permit for Egypt">
+            <a class="country-card" href="countries.html" data-slug="egypt" data-region="africa" data-name="egypt" data-keywords="cairo hurghada luxor sharm el sheikh giza" aria-label="International Driving Permit for Egypt">
               <span class="cc-flag" aria-hidden="true">🇪🇬</span>
               <span class="cc-body">
                 <span class="cc-name">Egypt</span>
@@ -1652,7 +1662,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="morocco" data-region="africa" data-name="morocco" data-keywords="marrakech casablanca fes tangier agadir" aria-label="International Driving Permit for Morocco">
+            <a class="country-card" href="countries.html" data-slug="morocco" data-region="africa" data-name="morocco" data-keywords="marrakech casablanca fes tangier agadir" aria-label="International Driving Permit for Morocco">
               <span class="cc-flag" aria-hidden="true">🇲🇦</span>
               <span class="cc-body">
                 <span class="cc-name">Morocco</span>
@@ -1660,7 +1670,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="south-africa" data-region="africa" data-name="south africa" data-keywords="cape town johannesburg joburg durban safari" aria-label="International Driving Permit for South Africa">
+            <a class="country-card" href="countries.html" data-slug="south-africa" data-region="africa" data-name="south africa" data-keywords="cape town johannesburg joburg durban safari" aria-label="International Driving Permit for South Africa">
               <span class="cc-flag" aria-hidden="true">🇿🇦</span>
               <span class="cc-body">
                 <span class="cc-name">South Africa</span>
@@ -1668,7 +1678,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="tunisia" data-region="africa" data-name="tunisia" data-keywords="tunis djerba sousse hammamet" aria-label="International Driving Permit for Tunisia">
+            <a class="country-card" href="countries.html" data-slug="tunisia" data-region="africa" data-name="tunisia" data-keywords="tunis djerba sousse hammamet" aria-label="International Driving Permit for Tunisia">
               <span class="cc-flag" aria-hidden="true">🇹🇳</span>
               <span class="cc-body">
                 <span class="cc-name">Tunisia</span>
@@ -1676,7 +1686,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="kenya" data-region="africa" data-name="kenya" data-keywords="nairobi mombasa safari masai mara" aria-label="International Driving Permit for Kenya">
+            <a class="country-card" href="countries.html" data-slug="kenya" data-region="africa" data-name="kenya" data-keywords="nairobi mombasa safari masai mara" aria-label="International Driving Permit for Kenya">
               <span class="cc-flag" aria-hidden="true">🇰🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Kenya</span>
@@ -1684,7 +1694,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="tanzania" data-region="africa" data-name="tanzania" data-keywords="zanzibar serengeti arusha kilimanjaro" aria-label="International Driving Permit for Tanzania">
+            <a class="country-card" href="countries.html" data-slug="tanzania" data-region="africa" data-name="tanzania" data-keywords="zanzibar serengeti arusha kilimanjaro" aria-label="International Driving Permit for Tanzania">
               <span class="cc-flag" aria-hidden="true">🇹🇿</span>
               <span class="cc-body">
                 <span class="cc-name">Tanzania</span>
@@ -1692,7 +1702,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="mauritius" data-region="africa" data-name="mauritius" data-keywords="port louis grand baie" aria-label="International Driving Permit for Mauritius">
+            <a class="country-card" href="countries.html" data-slug="mauritius" data-region="africa" data-name="mauritius" data-keywords="port louis grand baie" aria-label="International Driving Permit for Mauritius">
               <span class="cc-flag" aria-hidden="true">🇲🇺</span>
               <span class="cc-body">
                 <span class="cc-name">Mauritius</span>
@@ -1700,7 +1710,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="seychelles" data-region="africa" data-name="seychelles" data-keywords="mahe praslin victoria" aria-label="International Driving Permit for Seychelles">
+            <a class="country-card" href="countries.html" data-slug="seychelles" data-region="africa" data-name="seychelles" data-keywords="mahe praslin victoria" aria-label="International Driving Permit for Seychelles">
               <span class="cc-flag" aria-hidden="true">🇸🇨</span>
               <span class="cc-body">
                 <span class="cc-name">Seychelles</span>
@@ -1708,7 +1718,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="mexico" data-region="americas" data-name="mexico" data-keywords="cancun tulum mexico city playa del carmen cabo" aria-label="International Driving Permit for Mexico">
+            <a class="country-card" href="countries/mexico/" data-slug="mexico" data-region="americas" data-name="mexico" data-keywords="cancun tulum mexico city playa del carmen cabo" aria-label="International Driving Permit for Mexico">
               <span class="cc-flag" aria-hidden="true">🇲🇽</span>
               <span class="cc-body">
                 <span class="cc-name">Mexico</span>
@@ -1716,7 +1726,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="canada" data-region="americas" data-name="canada" data-keywords="toronto vancouver montreal calgary banff" aria-label="International Driving Permit for Canada">
+            <a class="country-card" href="countries.html" data-slug="canada" data-region="americas" data-name="canada" data-keywords="toronto vancouver montreal calgary banff" aria-label="International Driving Permit for Canada">
               <span class="cc-flag" aria-hidden="true">🇨🇦</span>
               <span class="cc-body">
                 <span class="cc-name">Canada</span>
@@ -1724,7 +1734,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="brazil" data-region="americas" data-name="brazil" data-keywords="rio sao paulo brasilia salvador" aria-label="International Driving Permit for Brazil">
+            <a class="country-card" href="countries.html" data-slug="brazil" data-region="americas" data-name="brazil" data-keywords="rio sao paulo brasilia salvador" aria-label="International Driving Permit for Brazil">
               <span class="cc-flag" aria-hidden="true">🇧🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Brazil</span>
@@ -1732,7 +1742,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="costa-rica" data-region="americas" data-name="costa rica" data-keywords="san jose tamarindo jaco guanacaste" aria-label="International Driving Permit for Costa Rica">
+            <a class="country-card" href="countries.html" data-slug="costa-rica" data-region="americas" data-name="costa rica" data-keywords="san jose tamarindo jaco guanacaste" aria-label="International Driving Permit for Costa Rica">
               <span class="cc-flag" aria-hidden="true">🇨🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Costa Rica</span>
@@ -1740,7 +1750,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="argentina" data-region="americas" data-name="argentina" data-keywords="buenos aires patagonia mendoza bariloche" aria-label="International Driving Permit for Argentina">
+            <a class="country-card" href="countries.html" data-slug="argentina" data-region="americas" data-name="argentina" data-keywords="buenos aires patagonia mendoza bariloche" aria-label="International Driving Permit for Argentina">
               <span class="cc-flag" aria-hidden="true">🇦🇷</span>
               <span class="cc-body">
                 <span class="cc-name">Argentina</span>
@@ -1748,7 +1758,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="peru" data-region="americas" data-name="peru" data-keywords="lima cusco machu picchu arequipa" aria-label="International Driving Permit for Peru">
+            <a class="country-card" href="countries.html" data-slug="peru" data-region="americas" data-name="peru" data-keywords="lima cusco machu picchu arequipa" aria-label="International Driving Permit for Peru">
               <span class="cc-flag" aria-hidden="true">🇵🇪</span>
               <span class="cc-body">
                 <span class="cc-name">Peru</span>
@@ -1756,7 +1766,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="colombia" data-region="americas" data-name="colombia" data-keywords="bogota medellin cartagena cali" aria-label="International Driving Permit for Colombia">
+            <a class="country-card" href="countries.html" data-slug="colombia" data-region="americas" data-name="colombia" data-keywords="bogota medellin cartagena cali" aria-label="International Driving Permit for Colombia">
               <span class="cc-flag" aria-hidden="true">🇨🇴</span>
               <span class="cc-body">
                 <span class="cc-name">Colombia</span>
@@ -1764,7 +1774,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="chile" data-region="americas" data-name="chile" data-keywords="santiago atacama patagonia valparaiso" aria-label="International Driving Permit for Chile">
+            <a class="country-card" href="countries.html" data-slug="chile" data-region="americas" data-name="chile" data-keywords="santiago atacama patagonia valparaiso" aria-label="International Driving Permit for Chile">
               <span class="cc-flag" aria-hidden="true">🇨🇱</span>
               <span class="cc-body">
                 <span class="cc-name">Chile</span>
@@ -1772,7 +1782,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="dominican-republic" data-region="americas" data-name="dominican republic" data-keywords="punta cana santo domingo puerto plata" aria-label="International Driving Permit for Dominican Republic">
+            <a class="country-card" href="countries.html" data-slug="dominican-republic" data-region="americas" data-name="dominican republic" data-keywords="punta cana santo domingo puerto plata" aria-label="International Driving Permit for Dominican Republic">
               <span class="cc-flag" aria-hidden="true">🇩🇴</span>
               <span class="cc-body">
                 <span class="cc-name">Dominican Republic</span>
@@ -1780,7 +1790,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="jamaica" data-region="americas" data-name="jamaica" data-keywords="montego bay kingston negril ocho rios" aria-label="International Driving Permit for Jamaica">
+            <a class="country-card" href="countries.html" data-slug="jamaica" data-region="americas" data-name="jamaica" data-keywords="montego bay kingston negril ocho rios" aria-label="International Driving Permit for Jamaica">
               <span class="cc-flag" aria-hidden="true">🇯🇲</span>
               <span class="cc-body">
                 <span class="cc-name">Jamaica</span>
@@ -1788,7 +1798,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="australia" data-region="oceania" data-name="australia" data-keywords="sydney melbourne brisbane gold coast perth oz" aria-label="International Driving Permit for Australia">
+            <a class="country-card" href="countries/australia/" data-slug="australia" data-region="oceania" data-name="australia" data-keywords="sydney melbourne brisbane gold coast perth oz" aria-label="International Driving Permit for Australia">
               <span class="cc-flag" aria-hidden="true">🇦🇺</span>
               <span class="cc-body">
                 <span class="cc-name">Australia</span>
@@ -1796,7 +1806,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="new-zealand" data-region="oceania" data-name="new zealand" data-keywords="auckland queenstown wellington christchurch nz" aria-label="International Driving Permit for New Zealand">
+            <a class="country-card" href="countries.html" data-slug="new-zealand" data-region="oceania" data-name="new zealand" data-keywords="auckland queenstown wellington christchurch nz" aria-label="International Driving Permit for New Zealand">
               <span class="cc-flag" aria-hidden="true">🇳🇿</span>
               <span class="cc-body">
                 <span class="cc-name">New Zealand</span>
@@ -1804,7 +1814,7 @@
               </span>
               <svg class="cc-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="country-card" href="checkout.html" data-slug="fiji" data-region="oceania" data-name="fiji" data-keywords="nadi suva denarau" aria-label="International Driving Permit for Fiji">
+            <a class="country-card" href="countries.html" data-slug="fiji" data-region="oceania" data-name="fiji" data-keywords="nadi suva denarau" aria-label="International Driving Permit for Fiji">
               <span class="cc-flag" aria-hidden="true">🇫🇯</span>
               <span class="cc-body">
                 <span class="cc-name">Fiji</span>
@@ -2023,7 +2033,7 @@
     }
   ]
 }
-        </script>
+  </script>
       </section>
       <section class="faq-section" id="faq" aria-labelledby="faq-title">
         <div class="faq-aurora" aria-hidden="true"></div>
@@ -2123,7 +2133,7 @@
               <span class="faq-ic" aria-hidden="true"><i></i><i></i></span>
             </button>
             <div class="faq-a" id="faq-a-7" role="region" aria-labelledby="faq-q-7">
-              <div><p>Three steps: <strong>confirm your eligibility, upload a photo of your license and a passport-style photo, and pay</strong>. That's it — most applications take under 8 minutes, with no tests, appointments, or embassy visits.</p></div>
+              <div><p>Choose a digital or printed option, enter your driver details, upload your <strong>valid driver's license</strong>, add a clear personal photo or selfie and signature, then complete payment. After successful review and approval, digital delivery is sent by email. See the full <a href="how-to-apply.html">application guide</a>.</p></div>
             </div>
           </article>
           <article class="faq-item" data-cat="applying" data-q="how fast receive delivery time minutes quick instant speed">
@@ -2150,7 +2160,7 @@
               <span class="faq-ic" aria-hidden="true"><i></i><i></i></span>
             </button>
             <div class="faq-a" id="faq-a-10" role="region" aria-labelledby="faq-q-10">
-              <div><p>A <strong>valid, in-date national driver's license</strong>, a clear passport-style photo, and a few personal details. No driving tests, no in-person appointments — you can finish the whole thing from your phone.</p></div>
+              <div><p>A <strong>valid driver's license</strong>, a clear personal photo or selfie, and your signature. The upload page may ask you to photograph both sides of the license so the details can be read clearly.</p></div>
             </div>
           </article>
           <article class="faq-item" data-cat="applying" data-q="license expiring soon close expiry renew domestic about to expire">
@@ -2287,12 +2297,6 @@
                 <span>24/7 live chat support</span>
               </li>
             </ul>
-            <div class="footer-social">
-              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h2.5l.5-3H14V4.5c0-.9.3-1.5 1.6-1.5H17V.3C16.7.2 15.8.1 14.7.1 12.3.1 10.7 1.6 10.7 4.3V6H8v3h2.7v8H14z"/></svg></a>
-              <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
-              <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-6.6 7.6L21.8 21h-6.2l-4.3-5.6L6.3 21H3.3l7.1-8.1L2.6 3h6.3l3.9 5.2zM16.4 19.2h1.7L7.7 4.7H5.9z"/></svg></a>
-              <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.4 8.4h3.1V21H3.4zM9.1 8.4h3v1.7h.05c.42-.8 1.45-1.65 2.98-1.65 3.19 0 3.78 2.1 3.78 4.83V21h-3.1v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9.1z"/></svg></a>
-            </div>
           </div>
 
           <nav class="footer-col" aria-label="Product">
@@ -2385,6 +2389,6 @@
     </a>
 
     <script src="script.js" defer></script>
-    <script src="/analytics-beacon.js" defer></script>
+    <script src="analytics-beacon.js?v=20260722" defer></script>
 </body>
 </html>

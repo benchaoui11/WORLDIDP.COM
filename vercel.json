@@ -1,6 +1,29 @@
 {
   "redirects": [
-    { "source": "/apply", "destination": "/pricing.html", "permanent": false },
-    { "source": "/apply/(.*)", "destination": "/pricing.html", "permanent": false }
+    {
+      "source": "/how-to-apply",
+      "destination": "/how-to-apply.html",
+      "permanent": false
+    },
+    {
+      "source": "/apply",
+      "destination": "/pricing.html",
+      "permanent": false
+    },
+    {
+      "source": "/apply/(.*)",
+      "destination": "/pricing.html",
+      "permanent": false
+    },
+    {
+      "source": "/guides/can-i-get-an-idp-the-same-day",
+      "destination": "/guides/can-i-get-an-idp-the-same-day-in-the-us/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/can-i-get-an-idp-the-same-day/",
+      "destination": "/guides/can-i-get-an-idp-the-same-day-in-the-us/",
+      "permanent": true
+    }
   ]
 }

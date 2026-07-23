@@ -30,7 +30,7 @@
   if (isDigital) {
     document.querySelectorAll("[data-physical-only]").forEach((el) => { el.style.display = "none"; });
     const intro = document.querySelector(".pay-intro p, [data-pay-intro]");
-    if (intro) intro.textContent = "Choose how fast you'd like your digital IDP. You'll complete payment securely on the next screen — we never store your card.";
+    if (intro) intro.textContent = "Choose how fast you'd like your digital IDP reviewed. After approval, we'll email secure payment instructions to complete your order.";
   }
 
   const productPrice = (() => {

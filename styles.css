@@ -2028,7 +2028,7 @@ h1 {
 
 @media (max-width: 1040px) {
   :root {
-    --container: min(100vw - 28px, 760px);
+    --container: min(calc(100vw - 28px), 760px);
   }
 
   .site-header {
@@ -2060,7 +2060,7 @@ h1 {
   }
 
   .header-actions {
-    top: calc(100% + 282px);
+    top: calc(100% + 334px);
     justify-content: center;
     padding: 12px;
     border-radius: 20px;
@@ -2218,7 +2218,7 @@ h1 {
 
 @media (max-width: 620px) {
   :root {
-    --container: min(100vw - 22px, 460px);
+    --container: min(calc(100vw - 22px), 460px);
   }
 
   .brand,
@@ -4828,7 +4828,7 @@ h1 {
 .sg-cta:hover svg{transform:translateX(4px)}
 
 @media (max-width: 900px){
-  .seo-guide-section{width:min(100% - 28px,1180px);padding-top:44px}
+.seo-guide-section{width:min(calc(100% - 28px),1180px);padding-top:44px}
   .seo-guide-grid{grid-template-columns:1fr 1fr}
 }
 

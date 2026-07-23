@@ -1,0 +1,88 @@
+# WorldIDP
+
+> WorldIDP is an independent private multilingual translation service for national driving licences, operated by WORLDIDP INTERNATIONAL LLC. It is not a government agency and is not authorised by any state to issue International Driving Permits. The document it prepares is carried alongside a valid original national driving licence and never replaces it.
+
+Last updated: 2026-07-23
+
+## What this site is and is not
+
+- WorldIDP prepares a private, multilingual translation-support document.
+- It does not grant driving privileges and does not replace a national licence.
+- In the United States, only the American Automobile Association (AAA) and the American Automobile Touring Alliance (AATA) are authorised by the U.S. Department of State to issue conventional U.S. International Driving Permits. WorldIDP is not one of them, and says so on its comparison page.
+- Acceptance of any driving document varies by destination, licence origin, licence language, vehicle category and third-party provider.
+
+## Editorial standard
+
+- A country requirement is published only when at least two official sources are recorded and a review date is logged.
+- The country dataset covers 124 destinations. 25 are source-backed and published; the remaining 99 are marked research-pending, carry no requirement claim, and are excluded from search indexing.
+- Facts that could not be verified are labelled as unconfirmed rather than estimated.
+- Method: /editorial-policy.html
+
+## Core pages
+
+- [What is an International Driving Permit?](https://worldidp.com/what-is-idp.html): Definition, what the document does and does not do, and how the 1949 and 1968 conventions differ.
+- [How to apply](https://worldidp.com/how-to-apply.html): The application process, required documents, and delivery.
+- [Country registry](https://worldidp.com/countries.html): Driving-document requirements by destination across 124 countries, with evidence tier and source count per row.
+- [Pricing](https://worldidp.com/pricing.html)
+- [FAQ](https://worldidp.com/faq.html)
+
+## Comparison and authority
+
+- [AAA and AATA compared with WorldIDP](https://worldidp.com/compare/aaa-idp-vs-worldidp/): Which route is appropriate for which traveller, with official U.S. sources. States plainly that AAA and AATA are the authorised U.S. issuers and WorldIDP is not.
+- [1949 Geneva Convention](https://worldidp.com/convention/1949-geneva/)
+- [1968 Vienna Convention](https://worldidp.com/convention/1968-vienna/)
+- [What is AATA?](https://worldidp.com/guides/what-is-aata/)
+- [AAA IDP cost and turnaround](https://worldidp.com/guides/aaa-idp-cost-and-turnaround/)
+- [Can I get an IDP the same day?](https://worldidp.com/guides/can-i-get-an-idp-the-same-day/)
+- [How to apply for an IDP in the US](https://worldidp.com/guides/how-to-apply-for-an-idp-in-the-us/)
+- [IDP for non-US licence holders](https://worldidp.com/guides/idp-for-non-us-licence-holders/)
+
+## Verified country guides
+
+Each of these states the requirement, names the official sources used, and shows the date those sources were reviewed.
+
+- [Australia](https://worldidp.com/countries/australia/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Austria](https://worldidp.com/countries/austria/): conventions: 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Canada](https://worldidp.com/countries/canada/): conventions: 1949 geneva; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Costa Rica](https://worldidp.com/countries/costa-rica/): conventions: 1949 geneva; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Croatia](https://worldidp.com/countries/croatia/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [France](https://worldidp.com/countries/france/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Germany](https://worldidp.com/countries/germany/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Greece](https://worldidp.com/countries/greece/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Iceland](https://worldidp.com/countries/iceland/): conventions: 1949 geneva; drives on the right; sources: 3; reviewed 2026-07-23.
+- [India](https://worldidp.com/countries/india/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Ireland](https://worldidp.com/countries/ireland/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Italy](https://worldidp.com/countries/italy/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 4; reviewed 2026-07-23.
+- [Japan](https://worldidp.com/countries/japan/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Mexico](https://worldidp.com/countries/mexico/): conventions: 1926 paris; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Morocco](https://worldidp.com/countries/morocco/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Netherlands](https://worldidp.com/countries/netherlands/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [New Zealand](https://worldidp.com/countries/new-zealand/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Portugal](https://worldidp.com/countries/portugal/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Spain](https://worldidp.com/countries/spain/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Switzerland](https://worldidp.com/countries/switzerland/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [Thailand](https://worldidp.com/countries/thailand/): conventions: 1949 geneva; drives on the left; sources: 3; reviewed 2026-07-23.
+- [Turkey](https://worldidp.com/countries/turkey/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [United Arab Emirates](https://worldidp.com/countries/united-arab-emirates/): conventions: 1949 geneva, 1968 vienna; drives on the right; sources: 3; reviewed 2026-07-23.
+- [United Kingdom](https://worldidp.com/countries/united-kingdom/): conventions: 1926 paris, 1949 geneva, 1968 vienna; drives on the left; sources: 4; reviewed 2026-07-23.
+- [United States](https://worldidp.com/countries/united-states/): conventions: 1949 geneva; drives on the right; sources: 4; reviewed 2026-07-23.
+
+## Open data
+
+- [IDP country requirements CSV](https://worldidp.com/data/idp-country-requirements.csv): Open dataset, CC BY 4.0. Columns include evidenceTier and sourceCount so gaps in the data are visible to anyone citing it. Empty fields mean unverified, not zero.
+- Cite as: WorldIDP IDP Country Requirements Registry, https://worldidp.com/countries.html, retrieved 2026-07-23.
+
+## Company
+
+- Legal name: WORLDIDP INTERNATIONAL LLC
+- Registered address: 127 N Higgins Ave Ste 307D #2849, Missoula, MT 59802, United States
+- Contact: hello@worldidp.com
+- [About](https://worldidp.com/about-us.html)
+- [Editorial policy](https://worldidp.com/editorial-policy.html)
+- [Legal disclaimer](https://worldidp.com/legal-disclaimer.html)
+
+## Optional
+
+- [Terms of service](https://worldidp.com/terms-of-service.html)
+- [Privacy policy](https://worldidp.com/privacy-policy.html)
+- [Refund policy](https://worldidp.com/refund-return-policy.html)
