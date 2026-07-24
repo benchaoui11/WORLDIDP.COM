@@ -4882,3 +4882,36 @@ h1 {
   .region-chips::-webkit-scrollbar{ display:none; }
   .region-chips > *{ flex:0 0 auto !important; scroll-snap-align:start; }  /* don't shrink -> overflow -> scrollable */
 }
+
+/* ===========================================================================
+   DISCLOSURE NOTES
+
+   Two short factual notes added when the rental-brand logo wall was removed and
+   when the unverified review labels were taken off. Both carried classes with
+   no definition, so they rendered as unstyled body paragraphs at full width
+   next to styled siblings.
+
+   They are deliberately quiet: a disclosure should be legible and findable, not
+   competing with the content it qualifies.
+   =========================================================================== */
+
+.rental-logo-note,
+.reviews-note {
+  max-width: 62ch;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.55;
+}
+
+/* the rental note sits inside the left-aligned copy block */
+.rental-logo-copy .rental-logo-note {
+  margin-top: 12px;
+}
+
+/* the reviews note sits under a centred section heading */
+.reviews-note {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

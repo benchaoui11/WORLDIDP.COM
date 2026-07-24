@@ -256,6 +256,85 @@ def main():
     if not bad:
         ok('A', f'sitemap clean: {len(locs)} URLs, all indexable, all exist')
 
+    # -------------------------------------------- asset + layout integrity
+    versions = set()
+    missing_css = []
+    for p_, rel_ in all_pages:
+        hh_ = open(p_, errors='ignore').read()
+        for m_ in re.finditer(r'country-guide\.css\?v=([0-9a-zA-Z]+)', hh_):
+            versions.add(m_.group(1))
+        # A page using the .cg wrapper without the stylesheet loses the
+        # fixed-header clearance and its h1 renders underneath the header.
+        if 'class="cg"' in hh_ and 'country-guide.css' not in hh_:
+            missing_css.append((rel_, 'country-guide.css', '.cg wrapper',
+                                'h1 renders under the fixed header'))
+        # The .wi-* system is DEFINED in what-is-idp.css. knowledge.css only
+        # layers overrides on top, so a page using .wi-* markup without
+        # what-is-idp.css renders with no styling at all.
+        if 'class="wi-' in hh_ and 'what-is-idp.css' not in hh_:
+            missing_css.append((rel_, 'what-is-idp.css', '.wi-* markup',
+                                'page renders unstyled'))
+    if len(versions) > 1:
+        fail('B', 'country-guide.css referenced with %d different cache-bust '
+                  'versions: %s — stale CSS will be served'
+                  % (len(versions), sorted(versions)))
+    elif versions:
+        ok('B', 'country-guide.css version consistent sitewide (%s)'
+                % sorted(versions)[0])
+    if missing_css:
+        for r_, sheet, why, effect in missing_css[:8]:
+            fail('F', '%s: uses %s but does not load %s (%s)'
+                      % (r_, why, sheet, effect))
+    else:
+        ok('F', 'every page loads the stylesheets its markup depends on')
+
+    # ------------------------------------------------ stylesheet scoping
+    # knowledge.css scopes every rule to .knowledge-page. A page that loads it
+    # without carrying that class renders with the entire stylesheet inert —
+    # which is exactly how the guides and comparison pages ended up unstyled.
+    scope_missing = []
+    for p_, rel_ in all_pages:
+        hh_ = open(p_, errors='ignore').read()
+        if 'knowledge.css' not in hh_ or 'class="wi-' not in hh_:
+            continue
+        if not re.search(r'class="[^"]*\b(knowledge-page|country-page|country-hub-page)\b', hh_):
+            scope_missing.append(rel_)
+    if scope_missing:
+        for r_ in scope_missing[:6]:
+            fail('F', '%s: loads knowledge.css but carries no .knowledge-page '
+                      'scope class — every rule in that stylesheet is inert' % r_)
+    else:
+        ok('F', 'every knowledge.css page carries the required scope class')
+
+    # Classes present in markup but defined in no stylesheet. Modifier classes
+    # paired with a defined base (e.g. "btn btn-primary") are fine; a class used
+    # alone with no definition means an unstyled element.
+    import glob as _glob
+    _css = ''
+    for _c in _glob.glob(os.path.join(ROOT, '*.css')):
+        _css += open(_c, errors='ignore').read()
+    _defined = set(re.findall(r'\.([a-zA-Z][\w-]+)', _css))
+    _js_state = {'is-scrolled', 'nav-open', 'is-revealed', 'active', 'open', 'hidden'}
+    _orphans = {}
+    for p_, rel_ in all_pages:
+        hh_ = re.sub(r'<script.*?</script>', ' ',
+                     open(p_, errors='ignore').read(), flags=re.S)
+        for m_ in re.finditer(r'class="([^"]+)"', hh_):
+            names = m_.group(1).split()
+            # only flag when NO class on the element is defined
+            if any(nm in _defined for nm in names):
+                continue
+            for nm in names:
+                if nm in _js_state or len(nm) < 3:
+                    continue
+                _orphans.setdefault(nm, set()).add(rel_)
+    if _orphans:
+        for nm, pages_ in sorted(_orphans.items(), key=lambda x: -len(x[1]))[:6]:
+            warn('F', 'class "%s" is used on %d page(s) with no CSS definition '
+                      'and no defined sibling class' % (nm, len(pages_)))
+    else:
+        ok('F', 'no orphaned CSS classes')
+
     # ---------------------------------------------------- robots.txt
     rb = open(os.path.join(ROOT, 'robots.txt')).read()
     for bot in ('GPTBot', 'PerplexityBot', 'ClaudeBot', 'Google-Extended', 'OAI-SearchBot'):

@@ -22,6 +22,33 @@ anything not confirmed renders as "Not confirmed" and is logged for the owner.
 """
 import os, re
 
+CSS_VERSION = '20260724a'
+
+
+def ensure_styles(h):
+    """
+    Guarantee a page loads every stylesheet the markup it contains depends on.
+
+    Cascade order matters and must match the rest of the site:
+        styles.css  ->  what-is-idp.css  ->  knowledge.css  ->  country-guide.css
+
+    what-is-idp.css is where the .wi-* system is actually defined. knowledge.css
+    only layers overrides on top of it, so a page that loads knowledge.css
+    without what-is-idp.css renders completely unstyled — which is exactly what
+    happened to the guides and comparison pages.
+    """
+    import re as _re
+    if 'class="wi-' in h and 'what-is-idp.css' not in h:
+        m = _re.search(r'(<link rel="stylesheet" href="[^"]*styles\.css[^"]*" ?/?>)', h)
+        if m:
+            h = h[:m.end()] + '\n  <link rel="stylesheet" href="/what-is-idp.css" />' + h[m.end():]
+    if 'country-guide.css' not in h:
+        h = h.replace('</head>',
+                      f'  <link rel="stylesheet" href="/country-guide.css?v={CSS_VERSION}" />\n</head>', 1)
+    return h
+
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 MARK = 'data-expanded="v2"'
 
@@ -258,9 +285,10 @@ def main():
             print(f'  skip (no insertion point): {slug}')
             continue
 
-        if 'country-guide.css' not in h:
-            h = h.replace('</head>',
-                          '  <link rel="stylesheet" href="../../country-guide.css?v=20260723" />\n</head>', 1)
+        # These pages use the .wi-* class system, which is DEFINED in
+        # what-is-idp.css. knowledge.css only carries overrides on top of it, so
+        # a page loading knowledge.css without what-is-idp.css renders unstyled.
+        h = ensure_styles(h)
         open(path, 'w').write(h)
 
         b = re.sub(r'<script.*?</script>', ' ', h, flags=re.S)

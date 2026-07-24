@@ -9,6 +9,33 @@ this way — passing internal equity to noindex research stubs is pointless.
 """
 import json, os, re
 
+CSS_VERSION = '20260724a'
+
+
+def ensure_styles(h):
+    """
+    Guarantee a page loads every stylesheet the markup it contains depends on.
+
+    Cascade order matters and must match the rest of the site:
+        styles.css  ->  what-is-idp.css  ->  knowledge.css  ->  country-guide.css
+
+    what-is-idp.css is where the .wi-* system is actually defined. knowledge.css
+    only layers overrides on top of it, so a page that loads knowledge.css
+    without what-is-idp.css renders completely unstyled — which is exactly what
+    happened to the guides and comparison pages.
+    """
+    import re as _re
+    if 'class="wi-' in h and 'what-is-idp.css' not in h:
+        m = _re.search(r'(<link rel="stylesheet" href="[^"]*styles\.css[^"]*" ?/?>)', h)
+        if m:
+            h = h[:m.end()] + '\n  <link rel="stylesheet" href="/what-is-idp.css" />' + h[m.end():]
+    if 'country-guide.css' not in h:
+        h = h.replace('</head>',
+                      f'  <link rel="stylesheet" href="/country-guide.css?v={CSS_VERSION}" />\n</head>', 1)
+    return h
+
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 countries = {c['slug']: c for c in json.load(open(os.path.join(ROOT, 'data', 'countries.json')))}
 verified = {s: c for s, c in countries.items() if c.get('indexable')}
@@ -97,22 +124,52 @@ def depth_prefix(rel):
     return '../' * rel.count(os.sep)
 
 
-def block(plan, rel):
+def block(plan, rel, host_markup):
+    """
+    Emit markup in the host page's own class system.
+
+    The site runs two of them. Pages built on what-is-idp.css use
+    .wi-section / .wi-head / .wi-kicker / .knowledge-list; pages built on the
+    country template use .cg-section / .cg-list inside a .cg container.
+
+    Injecting .cg markup into a .wi page produces a single elevated white card
+    floating among flat sections, and because it sits outside the .cg container
+    it also runs full-bleed. Matching the host is the fix.
+    """
     items = []
     for slug, anchor in plan['links']:
         if slug not in verified:
             continue
-        items.append(f'          <li><a href="/countries/{slug}/">{anchor}</a></li>')
+        items.append((f'/countries/{slug}/', anchor))
     for href, anchor in plan.get('extra', []):
-        items.append(f'          <li><a href="{href}">{anchor}</a></li>')
+        items.append((href, anchor))
     if not items:
         return None
+
+    if host_markup == 'wi':
+        lis = chr(10).join(
+            f'          <li><a href="{h}">{a}</a></li>' for h, a in items)
+        return f'''
+      <section class="wi-section" {MARKER}>
+        <div class="wi-head wi-left">
+          <p class="wi-kicker">Related</p>
+          <h2>{plan['heading']}</h2>
+        </div>
+        <p class="wi-lede">{plan['intro']}</p>
+        <ul class="knowledge-list">
+{lis}
+        </ul>
+      </section>
+'''
+
+    lis = chr(10).join(
+        f'          <li><a href="{h}">{a}</a></li>' for h, a in items)
     return f'''
       <section class="cg-section cg-crosslinks" {MARKER}>
         <h2>{plan['heading']}</h2>
         <p>{plan['intro']}</p>
         <ul class="cg-list">
-{chr(10).join(items)}
+{lis}
         </ul>
       </section>
 '''
@@ -125,9 +182,11 @@ for rel, plan in PLANS.items():
         print(f'  skip (missing): {rel}')
         continue
     h = open(path).read()
-    h = re.sub(r'\s*<section class="cg-section cg-crosslinks".*?</section>\s*', '\n', h, flags=re.S)
+    h = re.sub(r'\s*<section class="(?:cg-section cg-crosslinks|wi-section)"[^>]*'
+               + re.escape(MARKER) + r'.*?</section>\s*', '\n', h, flags=re.S)
 
-    b = block(plan, rel)
+    host_markup = 'wi' if 'class="wi-section"' in h else 'cg'
+    b = block(plan, rel, host_markup)
     if not b:
         continue
 
@@ -141,10 +200,7 @@ for rel, plan in PLANS.items():
         print(f'  skip (no insertion point): {rel}')
         continue
 
-    # the block uses country-guide.css; make sure the page loads it
-    if 'country-guide.css' not in h:
-        css = f'<link rel="stylesheet" href="{depth_prefix(rel)}country-guide.css?v=20260723" />'
-        h = h.replace('</head>', f'  {css}\n</head>', 1)
+    h = ensure_styles(h)
 
     open(path, 'w').write(h)
     n = b.count('<li>')

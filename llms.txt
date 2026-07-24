@@ -2,7 +2,7 @@
 
 > WorldIDP is an independent private multilingual translation service for national driving licences, operated by WORLDIDP INTERNATIONAL LLC. It is not a government agency and is not authorised by any state to issue International Driving Permits. The document it prepares is carried alongside a valid original national driving licence and never replaces it.
 
-Last updated: 2026-07-23
+Last updated: 2026-07-24
 
 ## What this site is and is not
 
@@ -70,7 +70,7 @@ Each of these states the requirement, names the official sources used, and shows
 ## Open data
 
 - [IDP country requirements CSV](https://worldidp.com/data/idp-country-requirements.csv): Open dataset, CC BY 4.0. Columns include evidenceTier and sourceCount so gaps in the data are visible to anyone citing it. Empty fields mean unverified, not zero.
-- Cite as: WorldIDP IDP Country Requirements Registry, https://worldidp.com/countries.html, retrieved 2026-07-23.
+- Cite as: WorldIDP IDP Country Requirements Registry, https://worldidp.com/countries.html, retrieved 2026-07-24.
 
 ## Company
 
