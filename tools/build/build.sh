@@ -17,6 +17,7 @@ echo "== 11/14 research findings =="; python3 tools/build/build_research_page.py
 echo "== 12/15 glossary ==";          python3 tools/build/build_glossary.py
 echo "== 13/15 guides hub ==";       python3 tools/build/build_guides_hub.py
 echo "== 14/16 cannibalisation ==";  python3 tools/build/check_cannibalisation.py
-echo "== 15/16 validate ==";              python3 tools/build/validate.py
+echo "== 15/17 validate ==";              python3 tools/build/validate.py
 echo ""; echo "duplication:";           python3 tools/build/measure_duplication.py
 echo "== 8/8 preflight ==";           python3 tools/build/preflight.py
+echo "== 17/17 rendered layout =="; python3 tools/build/verify_layout.py

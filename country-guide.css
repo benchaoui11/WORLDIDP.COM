@@ -560,3 +560,121 @@
 @media (prefers-reduced-motion: reduce) {
   .knowledge-link-row a { transition: none; }
 }
+
+/* ===========================================================================
+   KNOWLEDGE PAGE LAYOUT REPAIR
+
+   Three separate layout bugs on the eight guide, comparison and convention
+   pages. All three are in the markup those pages shipped with, and all three
+   are visible immediately on any viewport.
+
+   BUG 1 — full-bleed body copy
+     Their sections are built as:
+         <section class="wi-section">
+           <div class="wi-head">…heading…</div>   <- width 760px, centred
+           <p>…body copy…</p>                     <- NO container at all
+         </section>
+     .wi-section is full width with vertical padding only; inner width normally
+     comes from .wi-head or .wi-shell. The heading is therefore centred in a
+     760px column while the paragraph runs edge to edge across the viewport.
+
+   BUG 2 — enormous vertical gaps
+     .wi-section reserves clamp(64px, 9vw, 110px) of top padding, and .wi-head
+     adds 40px below itself. That spacing is designed for full page sections.
+     These sections contain one heading and one sentence, so the page reads as
+     isolated fragments separated by empty screens.
+
+   BUG 3 — hero grid blown out
+     .wi-answer declares width: var(--container) but is placed as a child of
+     .wi-hero-grid, a two-column grid. A child demanding full container width
+     inside a ~48% column forces that column open and crushes the other one,
+     which is why the h1 wraps one word per line.
+
+   Everything below is scoped to .knowledge-page and to direct children only,
+   so pages that already lay out correctly (what-is-idp, how-to-apply,
+   countries, editorial-policy) are untouched — verified: those have zero
+   unwrapped section children.
+   =========================================================================== */
+
+/* --- BUG 1: give direct section children the same column as the heading --- */
+.knowledge-page .wi-section > p,
+.knowledge-page .wi-section > ul,
+.knowledge-page .wi-section > ol,
+.knowledge-page .wi-section > dl,
+.knowledge-page .wi-section > table,
+.knowledge-page .wi-section > figure,
+.knowledge-page .wi-section > blockquote {
+  width: var(--container);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.knowledge-page .wi-section > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.68;
+  color: #26314c;
+}
+.knowledge-page .wi-section > p:last-child { margin-bottom: 0; }
+
+.knowledge-page .wi-section > ul,
+.knowledge-page .wi-section > ol {
+  padding-left: 1.2rem;
+  color: #26314c;
+}
+.knowledge-page .wi-section > ul li,
+.knowledge-page .wi-section > ol li {
+  margin-bottom: 0.55rem;
+  line-height: 1.66;
+}
+.knowledge-page .wi-section li::marker { color: var(--blue-700); }
+
+/* --- BUG 2: spacing proportional to the content it separates -------------- */
+.knowledge-page .wi-section {
+  padding: clamp(30px, 4vw, 48px) 0 0;
+}
+.knowledge-page .wi-section .wi-head {
+  margin-bottom: clamp(14px, 1.8vw, 22px);
+  text-align: left;          /* body copy is left aligned; match it */
+  margin-left: auto;
+  margin-right: auto;
+}
+.knowledge-page .wi-section .wi-head h2 {
+  font-size: clamp(1.22rem, 2.1vw, 1.55rem);
+  line-height: 1.24;
+  letter-spacing: -0.018em;
+  margin: 0;
+  color: var(--blue-900);
+}
+.knowledge-page .wi-section .wi-kicker { margin-bottom: 8px; }
+
+/* the final section needs bottom breathing room before the footer */
+.knowledge-page .wi-section:last-of-type {
+  padding-bottom: clamp(48px, 7vw, 88px);
+}
+
+/* --- BUG 3: .wi-answer as a grid child, not a standalone band ------------- */
+.knowledge-page .wi-hero-grid > .wi-answer {
+  width: auto;
+  max-width: none;
+  margin: 0;
+}
+
+/* --- hero: keep the two columns sane, stack them on narrow screens -------- */
+.knowledge-page .wi-hero {
+  padding: var(--wi-header-clearance) 0 clamp(40px, 6vw, 72px);
+}
+.knowledge-page .wi-hero h1 {
+  font-size: clamp(1.9rem, 4.2vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin: 0.6rem 0 0;
+  text-wrap: balance;
+}
+
+@media (max-width: 900px) {
+  .knowledge-page .wi-hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
